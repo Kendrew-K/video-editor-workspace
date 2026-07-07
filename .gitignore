@@ -1,0 +1,22 @@
+# allowlist: ignore everything, whitelist code + docs
+*
+!*/
+
+# code
+!*.py
+!*.js
+!*.ts
+!*.json
+!*.md
+!*.srt
+!*.ass
+!.gitignore
+
+# exclusions override whitelist
+node_modules/
+video-use/
+hyperframes-student-kit/
+Research/
+.claude/
+.env
+package-lock.json

@@ -1,0 +1,321 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.6650038361549377,
+  "text": "Nah, balik lagi ke 2023. Waktu ChatGPT baru mulai mainstream. Orang pada menggunakan ChatGPT untuk membantu memprediksikan harga stok. (suara klik)",
+  "words": [
+    {
+      "text": "Nah,",
+      "start": 1.879,
+      "end": 2.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.010755863338999916
+    },
+    {
+      "text": " ",
+      "start": 2.119,
+      "end": 2.379,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00046564225340262055
+    },
+    {
+      "text": "balik",
+      "start": 2.379,
+      "end": 2.599,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002802913416417141
+    },
+    {
+      "text": " ",
+      "start": 2.599,
+      "end": 2.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.9907753085135482e-05
+    },
+    {
+      "text": "lagi",
+      "start": 2.639,
+      "end": 2.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.9907753085135482e-05
+    },
+    {
+      "text": " ",
+      "start": 2.839,
+      "end": 2.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.410734163684538e-06
+    },
+    {
+      "text": "ke",
+      "start": 2.879,
+      "end": 2.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.410734163684538e-06
+    },
+    {
+      "text": " ",
+      "start": 2.98,
+      "end": 3.079,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.030810613185167313
+    },
+    {
+      "text": "2023.",
+      "start": 3.079,
+      "end": 3.719,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07859098567569163
+    },
+    {
+      "text": " ",
+      "start": 3.719,
+      "end": 4.019,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.364274329622276e-05
+    },
+    {
+      "text": "Waktu",
+      "start": 4.019,
+      "end": 4.199,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.319177748286166e-05
+    },
+    {
+      "text": " ",
+      "start": 4.199,
+      "end": 4.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02877179905772209
+    },
+    {
+      "text": "ChatGPT",
+      "start": 4.319,
+      "end": 4.88,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.024085961727126102
+    },
+    {
+      "text": " ",
+      "start": 4.88,
+      "end": 4.96,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010990492592100054
+    },
+    {
+      "text": "baru",
+      "start": 4.96,
+      "end": 5.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010990492592100054
+    },
+    {
+      "text": " ",
+      "start": 5.159,
+      "end": 5.219,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.9960475482512265e-05
+    },
+    {
+      "text": "mulai",
+      "start": 5.219,
+      "end": 5.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.716837636602577e-05
+    },
+    {
+      "text": " ",
+      "start": 5.5,
+      "end": 5.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00415426678955555
+    },
+    {
+      "text": "mainstream.",
+      "start": 5.539,
+      "end": 6.079,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.016754416240887207
+    },
+    {
+      "text": " ",
+      "start": 6.079,
+      "end": 6.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00018702188390307128
+    },
+    {
+      "text": "Orang",
+      "start": 6.42,
+      "end": 6.639,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.559553432656685e-05
+    },
+    {
+      "text": " ",
+      "start": 6.639,
+      "end": 6.679,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07405566424131393
+    },
+    {
+      "text": "pada",
+      "start": 6.679,
+      "end": 6.959,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07405566424131393
+    },
+    {
+      "text": " ",
+      "start": 6.959,
+      "end": 7.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006069486844353378
+    },
+    {
+      "text": "menggunakan",
+      "start": 7.0,
+      "end": 7.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006069486844353378
+    },
+    {
+      "text": " ",
+      "start": 7.5,
+      "end": 7.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.033269014209508896
+    },
+    {
+      "text": "ChatGPT",
+      "start": 7.519,
+      "end": 8.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.019101929577508208
+    },
+    {
+      "text": " ",
+      "start": 8.159,
+      "end": 8.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.447716102935374e-05
+    },
+    {
+      "text": "untuk",
+      "start": 8.199,
+      "end": 8.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.447716102935374e-05
+    },
+    {
+      "text": " ",
+      "start": 8.42,
+      "end": 8.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007550984621047974
+    },
+    {
+      "text": "membantu",
+      "start": 8.42,
+      "end": 8.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00499565911013633
+    },
+    {
+      "text": " ",
+      "start": 8.96,
+      "end": 8.979,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.005798542872071266
+    },
+    {
+      "text": "memprediksikan",
+      "start": 8.979,
+      "end": 9.82,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0015522314741766813
+    },
+    {
+      "text": " ",
+      "start": 9.82,
+      "end": 9.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.86750388215296e-05
+    },
+    {
+      "text": "harga",
+      "start": 9.92,
+      "end": 10.239,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.86750388215296e-05
+    },
+    {
+      "text": " ",
+      "start": 10.239,
+      "end": 10.359,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0025121578946709633
+    },
+    {
+      "text": "stok.",
+      "start": 10.359,
+      "end": 10.639,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007401260291226208
+    },
+    {
+      "text": " ",
+      "start": 10.639,
+      "end": 11.18,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.483915090560913
+    },
+    {
+      "text": "(suara klik)",
+      "start": 11.18,
+      "end": 12.199,
+      "type": "audio_event",
+      "speaker_id": "speaker_0",
+      "logprob": -0.9892242924356832
+    }
+  ],
+  "transcription_id": "vjSbpkKJrAuXGsLqRmRL",
+  "audio_duration_secs": 12.2226875
+}

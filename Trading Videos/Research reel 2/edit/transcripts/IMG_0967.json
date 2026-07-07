@@ -1,0 +1,225 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.8268970847129822,
+  "text": "Ya, at the end of the day, semua teknik ini membahas data yang mentah.",
+  "words": [
+    {
+      "text": "Ya,",
+      "start": 1.48,
+      "end": 1.759,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.021049117042214977
+    },
+    {
+      "text": " ",
+      "start": 1.759,
+      "end": 1.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.14360778033733368
+    },
+    {
+      "text": "at",
+      "start": 1.899,
+      "end": 1.979,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.14360778033733368
+    },
+    {
+      "text": " ",
+      "start": 1.979,
+      "end": 2.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003703166265040636
+    },
+    {
+      "text": "the",
+      "start": 2.0,
+      "end": 2.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003703166265040636
+    },
+    {
+      "text": " ",
+      "start": 2.059,
+      "end": 2.079,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.01976625993847847
+    },
+    {
+      "text": "end",
+      "start": 2.079,
+      "end": 2.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.01976625993847847
+    },
+    {
+      "text": " ",
+      "start": 2.119,
+      "end": 2.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.577531944960356e-05
+    },
+    {
+      "text": "of",
+      "start": 2.159,
+      "end": 2.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.577531944960356e-05
+    },
+    {
+      "text": " ",
+      "start": 2.22,
+      "end": 2.24,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020919041708111763
+    },
+    {
+      "text": "the",
+      "start": 2.24,
+      "end": 2.319,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020919041708111763
+    },
+    {
+      "text": " ",
+      "start": 2.319,
+      "end": 2.359,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.949660019017756e-05
+    },
+    {
+      "text": "day,",
+      "start": 2.359,
+      "end": 2.539,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008633354373159818
+    },
+    {
+      "text": " ",
+      "start": 2.539,
+      "end": 2.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020418466010596603
+    },
+    {
+      "text": "semua",
+      "start": 2.899,
+      "end": 3.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00020418466010596603
+    },
+    {
+      "text": " ",
+      "start": 3.119,
+      "end": 3.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008254220010712743
+    },
+    {
+      "text": "teknik",
+      "start": 3.199,
+      "end": 3.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008254220010712743
+    },
+    {
+      "text": " ",
+      "start": 3.46,
+      "end": 3.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": "ini",
+      "start": 3.519,
+      "end": 3.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": " ",
+      "start": 3.699,
+      "end": 3.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00017069313616957515
+    },
+    {
+      "text": "membahas",
+      "start": 3.72,
+      "end": 4.219,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010942626431642566
+    },
+    {
+      "text": " ",
+      "start": 4.219,
+      "end": 4.259,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008833082392811775
+    },
+    {
+      "text": "data",
+      "start": 4.259,
+      "end": 4.719,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008833082392811775
+    },
+    {
+      "text": " ",
+      "start": 4.719,
+      "end": 4.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.354942499659956e-05
+    },
+    {
+      "text": "yang",
+      "start": 4.759,
+      "end": 4.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.354942499659956e-05
+    },
+    {
+      "text": " ",
+      "start": 4.94,
+      "end": 4.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011860620725201443
+    },
+    {
+      "text": "mentah.",
+      "start": 4.94,
+      "end": 5.339,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.29263070637327e-05
+    }
+  ],
+  "transcription_id": "pARDMPm5uva8PDH4XXKt",
+  "audio_duration_secs": 6.9746875
+}

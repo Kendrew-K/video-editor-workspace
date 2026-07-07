@@ -1,0 +1,225 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.4488663673400879,
+  "text": "Dengan sistem ini, agents pun mulai belajar pola-pola di mana mereka cuan sesering mungkin.",
+  "words": [
+    {
+      "text": "Dengan",
+      "start": 1.819,
+      "end": 2.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0027452481978495293
+    },
+    {
+      "text": " ",
+      "start": 2.019,
+      "end": 2.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.434487345861271e-05
+    },
+    {
+      "text": "sistem",
+      "start": 2.039,
+      "end": 2.299,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.434487345861271e-05
+    },
+    {
+      "text": " ",
+      "start": 2.299,
+      "end": 2.359,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.3947389561508317e-05
+    },
+    {
+      "text": "ini,",
+      "start": 2.359,
+      "end": 2.899,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.144711710476258e-05
+    },
+    {
+      "text": " ",
+      "start": 2.899,
+      "end": 2.979,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.35017383098602295
+    },
+    {
+      "text": "agents",
+      "start": 2.98,
+      "end": 3.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.35017383098602295
+    },
+    {
+      "text": " ",
+      "start": 3.259,
+      "end": 3.279,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0047181230038404465
+    },
+    {
+      "text": "pun",
+      "start": 3.279,
+      "end": 3.399,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0047181230038404465
+    },
+    {
+      "text": " ",
+      "start": 3.399,
+      "end": 3.439,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.65590606938349e-06
+    },
+    {
+      "text": "mulai",
+      "start": 3.439,
+      "end": 3.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.319772156624822e-05
+    },
+    {
+      "text": " ",
+      "start": 3.699,
+      "end": 3.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.6756979322235566e-06
+    },
+    {
+      "text": "belajar",
+      "start": 3.72,
+      "end": 4.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.0653721491294813e-06
+    },
+    {
+      "text": " ",
+      "start": 4.059,
+      "end": 4.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.106198947643861e-06
+    },
+    {
+      "text": "pola-pola",
+      "start": 4.159,
+      "end": 4.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.084716298772643e-05
+    },
+    {
+      "text": " ",
+      "start": 4.659,
+      "end": 4.679,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.3134414255619049
+    },
+    {
+      "text": "di",
+      "start": 4.679,
+      "end": 4.759,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.3134414255619049
+    },
+    {
+      "text": " ",
+      "start": 4.759,
+      "end": 4.799,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": "mana",
+      "start": 4.799,
+      "end": 4.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.0371154530730564e-05
+    },
+    {
+      "text": " ",
+      "start": 4.96,
+      "end": 5.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "mereka",
+      "start": 5.039,
+      "end": 5.319,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": " ",
+      "start": 5.319,
+      "end": 5.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006156456656754017
+    },
+    {
+      "text": "cuan",
+      "start": 5.42,
+      "end": 5.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003102070129443746
+    },
+    {
+      "text": " ",
+      "start": 5.96,
+      "end": 6.019,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.001639213995076716
+    },
+    {
+      "text": "sesering",
+      "start": 6.019,
+      "end": 6.599,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006242419185582548
+    },
+    {
+      "text": " ",
+      "start": 6.599,
+      "end": 6.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.417489309271332e-06
+    },
+    {
+      "text": "mungkin.",
+      "start": 6.639,
+      "end": 7.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.790731659591984e-05
+    }
+  ],
+  "transcription_id": "v1meyFpK5MwkUMmCyz6G",
+  "audio_duration_secs": 8.2546875
+}

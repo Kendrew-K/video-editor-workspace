@@ -1,0 +1,289 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.7031698822975159,
+  "text": "Pernahkah kau penasaran gimana perusahaan-perusahaan besar dapat memprediksi harga stok sebelum news keluar? Jawabannya ada di video ini.",
+  "words": [
+    {
+      "text": "Pernahkah",
+      "start": 1.759,
+      "end": 2.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.011839610025946159
+    },
+    {
+      "text": " ",
+      "start": 2.139,
+      "end": 2.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.986990567587782e-06
+    },
+    {
+      "text": "kau",
+      "start": 2.18,
+      "end": 2.299,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.30487958107066e-06
+    },
+    {
+      "text": " ",
+      "start": 2.299,
+      "end": 2.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0001961992384167388
+    },
+    {
+      "text": "penasaran",
+      "start": 2.319,
+      "end": 2.899,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.704218266248872e-05
+    },
+    {
+      "text": " ",
+      "start": 2.899,
+      "end": 3.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.07598330825567245
+    },
+    {
+      "text": "gimana",
+      "start": 3.179,
+      "end": 3.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.037992071360179125
+    },
+    {
+      "text": " ",
+      "start": 3.48,
+      "end": 3.579,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": "perusahaan-perusahaan",
+      "start": 3.579,
+      "end": 4.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008031854240297912
+    },
+    {
+      "text": " ",
+      "start": 4.279,
+      "end": 4.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005541696446016431
+    },
+    {
+      "text": "besar",
+      "start": 4.319,
+      "end": 4.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005541696446016431
+    },
+    {
+      "text": " ",
+      "start": 4.859,
+      "end": 4.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.8874615458771586e-05
+    },
+    {
+      "text": "dapat",
+      "start": 4.9,
+      "end": 5.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.8874615458771586e-05
+    },
+    {
+      "text": " ",
+      "start": 5.259,
+      "end": 5.279,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005108005134388804
+    },
+    {
+      "text": "memprediksi",
+      "start": 5.279,
+      "end": 6.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003283701266396251
+    },
+    {
+      "text": " ",
+      "start": 6.119,
+      "end": 6.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.583032467868179e-06
+    },
+    {
+      "text": "harga",
+      "start": 6.159,
+      "end": 6.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.583032467868179e-06
+    },
+    {
+      "text": " ",
+      "start": 6.359,
+      "end": 6.459,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.012728873640298843
+    },
+    {
+      "text": "stok",
+      "start": 6.46,
+      "end": 6.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006367417043520618
+    },
+    {
+      "text": " ",
+      "start": 6.739,
+      "end": 6.839,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "sebelum",
+      "start": 6.839,
+      "end": 7.179,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.111676232224064e-05
+    },
+    {
+      "text": " ",
+      "start": 7.179,
+      "end": 7.239,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0014627005439251661
+    },
+    {
+      "text": "news",
+      "start": 7.239,
+      "end": 7.399,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0014627005439251661
+    },
+    {
+      "text": " ",
+      "start": 7.399,
+      "end": 7.439,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.209310256759636e-05
+    },
+    {
+      "text": "keluar?",
+      "start": 7.44,
+      "end": 7.759,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.7076924392791364e-05
+    },
+    {
+      "text": " ",
+      "start": 7.759,
+      "end": 8.22,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.858122211880982e-05
+    },
+    {
+      "text": "Jawabannya",
+      "start": 8.22,
+      "end": 8.84,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.305679631215753e-05
+    },
+    {
+      "text": " ",
+      "start": 8.84,
+      "end": 8.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.483612312673358e-06
+    },
+    {
+      "text": "ada",
+      "start": 8.899,
+      "end": 9.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.483612312673358e-06
+    },
+    {
+      "text": " ",
+      "start": 9.119,
+      "end": 9.139,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": "di",
+      "start": 9.139,
+      "end": 9.3,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 9.3,
+      "end": 9.34,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": "video",
+      "start": 9.34,
+      "end": 9.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": " ",
+      "start": 9.739,
+      "end": 9.8,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.9192511899746023e-05
+    },
+    {
+      "text": "ini.",
+      "start": 9.8,
+      "end": 10.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.6629548099444946e-05
+    }
+  ],
+  "transcription_id": "FvUAiSvytBI6x3CxIcio",
+  "audio_duration_secs": 11.5186875
+}

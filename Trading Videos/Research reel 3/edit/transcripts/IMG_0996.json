@@ -1,0 +1,209 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.4818541407585144,
+  "text": "Masalahnya, hasil riset ini masih mentah. They haven't considered transaction costs and crowding.",
+  "words": [
+    {
+      "text": "Masalahnya,",
+      "start": 2.359,
+      "end": 2.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.024637803477658468
+    },
+    {
+      "text": " ",
+      "start": 2.96,
+      "end": 3.339,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004809240810573101
+    },
+    {
+      "text": "hasil",
+      "start": 3.339,
+      "end": 3.599,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004809240810573101
+    },
+    {
+      "text": " ",
+      "start": 3.599,
+      "end": 3.679,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.6656591296195984
+    },
+    {
+      "text": "riset",
+      "start": 3.679,
+      "end": 3.979,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.3994023441679019
+    },
+    {
+      "text": " ",
+      "start": 3.979,
+      "end": 4.019,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00027533553657121956
+    },
+    {
+      "text": "ini",
+      "start": 4.019,
+      "end": 4.219,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00027533553657121956
+    },
+    {
+      "text": " ",
+      "start": 4.219,
+      "end": 4.259,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.178694017464295e-05
+    },
+    {
+      "text": "masih",
+      "start": 4.259,
+      "end": 4.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.178694017464295e-05
+    },
+    {
+      "text": " ",
+      "start": 4.48,
+      "end": 4.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.825220326485578e-05
+    },
+    {
+      "text": "mentah.",
+      "start": 4.5,
+      "end": 4.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.002516536610658347
+    },
+    {
+      "text": " ",
+      "start": 4.9,
+      "end": 5.339,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.015991292893886566
+    },
+    {
+      "text": "They",
+      "start": 5.339,
+      "end": 5.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.015991292893886566
+    },
+    {
+      "text": " ",
+      "start": 5.48,
+      "end": 5.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.013724368065595627
+    },
+    {
+      "text": "haven't",
+      "start": 5.539,
+      "end": 5.899,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.010122898766504866
+    },
+    {
+      "text": " ",
+      "start": 5.899,
+      "end": 5.919,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0702630877494812
+    },
+    {
+      "text": "considered",
+      "start": 5.92,
+      "end": 6.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0702630877494812
+    },
+    {
+      "text": " ",
+      "start": 6.46,
+      "end": 6.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007553823757916689
+    },
+    {
+      "text": "transaction",
+      "start": 6.48,
+      "end": 6.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007553823757916689
+    },
+    {
+      "text": " ",
+      "start": 6.94,
+      "end": 7.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.026339111849665642
+    },
+    {
+      "text": "costs",
+      "start": 7.0,
+      "end": 7.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.026339111849665642
+    },
+    {
+      "text": " ",
+      "start": 7.559,
+      "end": 7.659,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "and",
+      "start": 7.659,
+      "end": 8.039,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": " ",
+      "start": 8.039,
+      "end": 8.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00013910756388213485
+    },
+    {
+      "text": "crowding.",
+      "start": 8.059,
+      "end": 8.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0013926134690538878
+    }
+  ],
+  "transcription_id": "H43sBdTMOOWWmaFEIIue",
+  "audio_duration_secs": 9.684
+}

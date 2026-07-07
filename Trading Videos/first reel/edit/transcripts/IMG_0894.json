@@ -1,0 +1,417 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.7923470735549927,
+  "text": "Ketiga, gue akan translate semua teknis-teknis ini into coding language. Habis itu gue akan connect semua ini into Connect Trade agar kita bisa trade secara otomatis.",
+  "words": [
+    {
+      "text": "Ketiga,",
+      "start": 1.679,
+      "end": 2.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0028089252573408885
+    },
+    {
+      "text": " ",
+      "start": 2.099,
+      "end": 2.659,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.001424132497049868
+    },
+    {
+      "text": "gue",
+      "start": 2.659,
+      "end": 2.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00047979707596823573
+    },
+    {
+      "text": " ",
+      "start": 2.839,
+      "end": 2.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.483612312673358e-06
+    },
+    {
+      "text": "akan",
+      "start": 2.899,
+      "end": 3.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.483612312673358e-06
+    },
+    {
+      "text": " ",
+      "start": 3.059,
+      "end": 3.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011216964776394889
+    },
+    {
+      "text": "translate",
+      "start": 3.159,
+      "end": 3.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011216964776394889
+    },
+    {
+      "text": " ",
+      "start": 3.74,
+      "end": 3.779,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00015984688070602715
+    },
+    {
+      "text": "semua",
+      "start": 3.779,
+      "end": 4.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00015984688070602715
+    },
+    {
+      "text": " ",
+      "start": 4.139,
+      "end": 4.239,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.12963315844535828
+    },
+    {
+      "text": "teknis-teknis",
+      "start": 4.239,
+      "end": 4.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.10544002800732134
+    },
+    {
+      "text": " ",
+      "start": 4.96,
+      "end": 5.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.0636318115284666e-05
+    },
+    {
+      "text": "ini",
+      "start": 5.059,
+      "end": 5.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.0636318115284666e-05
+    },
+    {
+      "text": " ",
+      "start": 5.279,
+      "end": 5.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0010781434830278158
+    },
+    {
+      "text": "into",
+      "start": 5.599,
+      "end": 5.819,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0010781434830278158
+    },
+    {
+      "text": " ",
+      "start": 5.819,
+      "end": 5.999,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02685253694653511
+    },
+    {
+      "text": "coding",
+      "start": 6.0,
+      "end": 6.319,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02685253694653511
+    },
+    {
+      "text": " ",
+      "start": 6.319,
+      "end": 6.399,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.838465272565372e-05
+    },
+    {
+      "text": "language.",
+      "start": 6.399,
+      "end": 6.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.4490564050631496e-05
+    },
+    {
+      "text": " ",
+      "start": 6.839,
+      "end": 7.48,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0036526883486658335
+    },
+    {
+      "text": "Habis",
+      "start": 7.48,
+      "end": 7.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007467499686754309
+    },
+    {
+      "text": " ",
+      "start": 7.699,
+      "end": 7.739,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.182837463100441e-05
+    },
+    {
+      "text": "itu",
+      "start": 7.739,
+      "end": 8.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.182837463100441e-05
+    },
+    {
+      "text": " ",
+      "start": 8.019,
+      "end": 8.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.28142210841178894
+    },
+    {
+      "text": "gue",
+      "start": 8.519,
+      "end": 8.679,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.09380808472595466
+    },
+    {
+      "text": " ",
+      "start": 8.679,
+      "end": 8.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005781171494163573
+    },
+    {
+      "text": "akan",
+      "start": 8.72,
+      "end": 8.939,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005781171494163573
+    },
+    {
+      "text": " ",
+      "start": 8.939,
+      "end": 8.96,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007257211836986244
+    },
+    {
+      "text": "connect",
+      "start": 8.96,
+      "end": 9.239,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007257211836986244
+    },
+    {
+      "text": " ",
+      "start": 9.239,
+      "end": 9.359,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.823885577323381e-05
+    },
+    {
+      "text": "semua",
+      "start": 9.359,
+      "end": 9.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.823885577323381e-05
+    },
+    {
+      "text": " ",
+      "start": 9.659,
+      "end": 9.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.125986263010418e-06
+    },
+    {
+      "text": "ini",
+      "start": 9.719,
+      "end": 9.939,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.125986263010418e-06
+    },
+    {
+      "text": " ",
+      "start": 9.939,
+      "end": 10.379,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007744879927486181
+    },
+    {
+      "text": "into",
+      "start": 10.38,
+      "end": 10.619,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007744879927486181
+    },
+    {
+      "text": " ",
+      "start": 10.619,
+      "end": 10.659,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.4753619432449341
+    },
+    {
+      "text": "Connect",
+      "start": 10.659,
+      "end": 10.939,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.4753619432449341
+    },
+    {
+      "text": " ",
+      "start": 10.939,
+      "end": 11.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0014099667314440012
+    },
+    {
+      "text": "Trade",
+      "start": 11.0,
+      "end": 11.399,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0014099667314440012
+    },
+    {
+      "text": " ",
+      "start": 11.399,
+      "end": 11.479,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008264745585620403
+    },
+    {
+      "text": "agar",
+      "start": 11.479,
+      "end": 11.639,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008264745585620403
+    },
+    {
+      "text": " ",
+      "start": 11.639,
+      "end": 11.779,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00027223696815781295
+    },
+    {
+      "text": "kita",
+      "start": 11.779,
+      "end": 12.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00027223696815781295
+    },
+    {
+      "text": " ",
+      "start": 12.0,
+      "end": 12.079,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.9934315282152966e-05
+    },
+    {
+      "text": "bisa",
+      "start": 12.079,
+      "end": 12.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.9934315282152966e-05
+    },
+    {
+      "text": " ",
+      "start": 12.279,
+      "end": 12.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.903263758635148e-05
+    },
+    {
+      "text": "trade",
+      "start": 12.42,
+      "end": 12.619,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.903263758635148e-05
+    },
+    {
+      "text": " ",
+      "start": 12.619,
+      "end": 12.679,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.010543388081715e-05
+    },
+    {
+      "text": "secara",
+      "start": 12.679,
+      "end": 13.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.010543388081715e-05
+    },
+    {
+      "text": " ",
+      "start": 13.0,
+      "end": 13.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008816407644189894
+    },
+    {
+      "text": "otomatis.",
+      "start": 13.099,
+      "end": 13.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005322571604564372
+    }
+  ],
+  "transcription_id": "EKs47tLGjvrK3nIYyjLr",
+  "audio_duration_secs": 16.6173125
+}

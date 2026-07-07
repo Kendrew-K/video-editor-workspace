@@ -1,0 +1,289 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.7614313364028931,
+  "text": "Kalian juga pasti sudah melihat video dong of Jerome Powell, Kepala FDA of America ketika dia memberi pidato.",
+  "words": [
+    {
+      "text": "Kalian",
+      "start": 1.5,
+      "end": 1.759,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.05075087365306293
+    },
+    {
+      "text": " ",
+      "start": 1.759,
+      "end": 1.779,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.451581379631534e-05
+    },
+    {
+      "text": "juga",
+      "start": 1.779,
+      "end": 1.959,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.451581379631534e-05
+    },
+    {
+      "text": " ",
+      "start": 1.959,
+      "end": 1.999,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.663577369181439e-05
+    },
+    {
+      "text": "pasti",
+      "start": 2.0,
+      "end": 2.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.426229099612101e-05
+    },
+    {
+      "text": " ",
+      "start": 2.24,
+      "end": 2.279,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010406429646536708
+    },
+    {
+      "text": "sudah",
+      "start": 2.279,
+      "end": 2.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010406429646536708
+    },
+    {
+      "text": " ",
+      "start": 2.5,
+      "end": 2.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.005604032427072525
+    },
+    {
+      "text": "melihat",
+      "start": 2.519,
+      "end": 2.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0024022731395234587
+    },
+    {
+      "text": " ",
+      "start": 2.799,
+      "end": 2.839,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.35982978343963623
+    },
+    {
+      "text": "video",
+      "start": 2.839,
+      "end": 3.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.35982978343963623
+    },
+    {
+      "text": " ",
+      "start": 3.099,
+      "end": 3.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.8514695763587952
+    },
+    {
+      "text": "dong",
+      "start": 3.179,
+      "end": 3.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.8514695763587952
+    },
+    {
+      "text": " ",
+      "start": 3.659,
+      "end": 3.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02983037196099758
+    },
+    {
+      "text": "of",
+      "start": 3.72,
+      "end": 3.819,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02983037196099758
+    },
+    {
+      "text": " ",
+      "start": 3.819,
+      "end": 3.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00120698066893965
+    },
+    {
+      "text": "Jerome",
+      "start": 3.879,
+      "end": 4.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00120698066893965
+    },
+    {
+      "text": " ",
+      "start": 4.159,
+      "end": 4.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0010034770239144564
+    },
+    {
+      "text": "Powell,",
+      "start": 4.199,
+      "end": 4.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003092964246336903
+    },
+    {
+      "text": " ",
+      "start": 4.5,
+      "end": 4.699,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004796665161848068
+    },
+    {
+      "text": "Kepala",
+      "start": 4.699,
+      "end": 5.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008090801923875309
+    },
+    {
+      "text": " ",
+      "start": 5.019,
+      "end": 5.079,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002862997353076935
+    },
+    {
+      "text": "FDA",
+      "start": 5.079,
+      "end": 5.539,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002862997353076935
+    },
+    {
+      "text": " ",
+      "start": 5.539,
+      "end": 5.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003985564399044961
+    },
+    {
+      "text": "of",
+      "start": 5.599,
+      "end": 5.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003985564399044961
+    },
+    {
+      "text": " ",
+      "start": 5.699,
+      "end": 5.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0011545903980731964
+    },
+    {
+      "text": "America",
+      "start": 5.719,
+      "end": 6.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0011545903980731964
+    },
+    {
+      "text": " ",
+      "start": 6.48,
+      "end": 6.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.08502926677465439
+    },
+    {
+      "text": "ketika",
+      "start": 6.5,
+      "end": 6.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.04251505061967009
+    },
+    {
+      "text": " ",
+      "start": 6.799,
+      "end": 6.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011288482346571982
+    },
+    {
+      "text": "dia",
+      "start": 6.879,
+      "end": 7.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011288482346571982
+    },
+    {
+      "text": " ",
+      "start": 7.019,
+      "end": 7.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.497983460780233e-05
+    },
+    {
+      "text": "memberi",
+      "start": 7.039,
+      "end": 7.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.435357913200537e-05
+    },
+    {
+      "text": " ",
+      "start": 7.359,
+      "end": 7.379,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.793403761344962e-05
+    },
+    {
+      "text": "pidato.",
+      "start": 7.379,
+      "end": 7.779,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003245580930005027
+    }
+  ],
+  "transcription_id": "KalHMbRSB1ZeV8gQYXU5",
+  "audio_duration_secs": 9.5773125
+}

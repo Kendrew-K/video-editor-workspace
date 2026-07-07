@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_0999": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_0999.MOV",
+    "IMG_1002": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1002.MOV",
+    "IMG_1004": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1004.MOV",
+    "IMG_1009": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1009.MOV",
+    "IMG_1011": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1011.MOV",
+    "IMG_1013": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1013.MOV",
+    "IMG_1014": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1014.MOV",
+    "IMG_1016": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1016.MOV",
+    "IMG_1018": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1018.MOV",
+    "IMG_1019": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1019.MOV",
+    "IMG_1020": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1020.MOV",
+    "IMG_1026": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1026.MOV"
+  },
+  "ranges": [
+    {"source": "IMG_0999", "start": 1.28, "end": 15.20, "beat": "HOOK",      "quote": "In 2024 AI traders... kenapa mereka sudah mati? Let's rewind first."},
+    {"source": "IMG_1002", "start": 1.70, "end":  6.45, "beat": "DAY5",      "quote": "Before we begin, welcome everyone to Day 5 of my trading series."},
+    {"source": "IMG_1004", "start": 1.60, "end":  9.82, "beat": "SETUP",     "quote": "Harga stok bukan dari data — dari gap antara realita dan ekspektasi."},
+    {"source": "IMG_1009", "start": 1.38, "end": 12.22, "beat": "EXAMPLE",   "quote": "Forecast bilang 250k lowongan kerja, realitanya 200k."},
+    {"source": "IMG_1011", "start": 1.46, "end":  7.82, "beat": "POWELL_A",  "quote": "Pasti sudah lihat video Jerome Powell ketika dia memberi pidato."},
+    {"source": "IMG_1013", "start": 1.60, "end":  7.62, "beat": "POWELL_B",  "quote": "Satu kata dari dia bisa merubah harga stok secara drastis."},
+    {"source": "IMG_1014", "start": 1.24, "end":  9.44, "beat": "LING_TRADE","quote": "Orang tidak lagi trade dari rate — melainkan dari kata-kata pemimpin."},
+    {"source": "IMG_1016", "start": 2.04, "end": 14.20, "beat": "BLOOMBERG", "quote": "Bloomberg punya sistem nge-skor headline dijual ke hedge funds."},
+    {"source": "IMG_1018", "start": 1.84, "end": 10.68, "beat": "CHATGPT",   "quote": "Balik ke 2023 — orang pakai ChatGPT buat prediksi harga stok."},
+    {"source": "IMG_1019", "start": 1.20, "end": 14.32, "beat": "RESULTS",   "quote": "Sharpe 3.8 — tapi 2024 semua mati karena terlalu banyak orang pakai."},
+    {"source": "IMG_1020", "start": 1.26, "end": 11.22, "beat": "AGENTS",    "quote": "Agent teams — group debating data & news, return of 26%."},
+    {"source": "IMG_1026", "start": 1.98, "end": 16.54, "beat": "OUTRO",     "quote": "Trik-trik di kertas bagus, tapi gagal live. Next: actual game plan. Peace!"}
+  ],
+  "grade": "none",
+  "overlays": [
+    {"file": "animations/slot_gfx_hook/render.mov",     "start_in_output":   0.50, "duration": 12.00},
+    {"file": "animations/slot_news_day5/render.mov",   "start_in_output":  14.60, "duration":  3.00},
+    {"file": "animations/slot_gfx_expect/render.mov",  "start_in_output":  27.50, "duration":  9.00},
+    {"file": "animations/slot_src_powell/render.mov",  "start_in_output":  38.00, "duration":  6.00},
+    {"file": "animations/slot_gfx_nlp/render.mov",     "start_in_output":  50.50, "duration":  7.50},
+    {"file": "animations/slot_src_bloomberg/render.mov","start_in_output":  61.50, "duration":  5.50},
+    {"file": "animations/slot_gfx_sharpe/render.mov",  "start_in_output":  82.00, "duration":  6.00},
+    {"file": "animations/slot_src_chatgpt/render.mov", "start_in_output":  88.50, "duration":  5.00},
+    {"file": "animations/slot_gfx_agents/render.mov",  "start_in_output":  92.50, "duration": 10.50}
+  ],
+  "subtitles": "master_v1.ass",
+  "total_duration_s": 116.95
+}

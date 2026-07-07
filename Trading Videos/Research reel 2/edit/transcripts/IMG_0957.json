@@ -1,0 +1,273 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.8526090979576111,
+  "text": "Sebuah alat yang bisa mengeruk millions of web dari lowongan kerja, harga produk, sampai number of downloads.",
+  "words": [
+    {
+      "text": "Sebuah",
+      "start": 1.939,
+      "end": 2.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003346482214207451
+    },
+    {
+      "text": " ",
+      "start": 2.22,
+      "end": 2.279,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.5616295058862306e-05
+    },
+    {
+      "text": "alat",
+      "start": 2.279,
+      "end": 2.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.463798167213099e-06
+    },
+    {
+      "text": " ",
+      "start": 2.74,
+      "end": 2.799,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.312633478140924e-05
+    },
+    {
+      "text": "yang",
+      "start": 2.799,
+      "end": 2.919,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.312633478140924e-05
+    },
+    {
+      "text": " ",
+      "start": 2.919,
+      "end": 2.939,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.6689160474925302e-05
+    },
+    {
+      "text": "bisa",
+      "start": 2.939,
+      "end": 3.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.6689160474925302e-05
+    },
+    {
+      "text": " ",
+      "start": 3.119,
+      "end": 3.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00044860312482342124
+    },
+    {
+      "text": "mengeruk",
+      "start": 3.179,
+      "end": 3.619,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00029266160629504157
+    },
+    {
+      "text": " ",
+      "start": 3.619,
+      "end": 3.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007086973171681166
+    },
+    {
+      "text": "millions",
+      "start": 3.639,
+      "end": 4.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.007086973171681166
+    },
+    {
+      "text": " ",
+      "start": 4.099,
+      "end": 4.119,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0001072826053132303
+    },
+    {
+      "text": "of",
+      "start": 4.119,
+      "end": 4.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0001072826053132303
+    },
+    {
+      "text": " ",
+      "start": 4.259,
+      "end": 4.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.639736966462806e-05
+    },
+    {
+      "text": "web",
+      "start": 4.319,
+      "end": 4.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.639736966462806e-05
+    },
+    {
+      "text": " ",
+      "start": 4.96,
+      "end": 5.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0004920940846204758
+    },
+    {
+      "text": "dari",
+      "start": 5.0,
+      "end": 5.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0004920940846204758
+    },
+    {
+      "text": " ",
+      "start": 5.139,
+      "end": 5.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.760223525110632e-05
+    },
+    {
+      "text": "lowongan",
+      "start": 5.199,
+      "end": 5.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.834723419364309e-05
+    },
+    {
+      "text": " ",
+      "start": 5.519,
+      "end": 5.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00024256148026324809
+    },
+    {
+      "text": "kerja,",
+      "start": 5.539,
+      "end": 5.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00012163836781079833
+    },
+    {
+      "text": " ",
+      "start": 5.9,
+      "end": 6.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.093983342405409e-05
+    },
+    {
+      "text": "harga",
+      "start": 6.159,
+      "end": 6.339,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.093983342405409e-05
+    },
+    {
+      "text": " ",
+      "start": 6.339,
+      "end": 6.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00023731753753963858
+    },
+    {
+      "text": "produk,",
+      "start": 6.42,
+      "end": 6.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006884197563132537
+    },
+    {
+      "text": " ",
+      "start": 6.98,
+      "end": 7.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.5616295058862306e-05
+    },
+    {
+      "text": "sampai",
+      "start": 7.059,
+      "end": 7.46,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.0927436543776517e-05
+    },
+    {
+      "text": " ",
+      "start": 7.46,
+      "end": 7.619,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.210611172718927e-05
+    },
+    {
+      "text": "number",
+      "start": 7.619,
+      "end": 7.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.210611172718927e-05
+    },
+    {
+      "text": " ",
+      "start": 7.96,
+      "end": 8.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "of",
+      "start": 8.0,
+      "end": 8.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 8.159,
+      "end": 8.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02986878715455532
+    },
+    {
+      "text": "downloads.",
+      "start": 8.199,
+      "end": 8.779,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.026952467358205466
+    }
+  ],
+  "transcription_id": "NliAOWJdGA62D5eXgpo1",
+  "audio_duration_secs": 10.0466875
+}

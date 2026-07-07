@@ -1,0 +1,50 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BL,Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3,1,2,36,36,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.16,0:00:03.06,BL,,0,0,0,,{\c&HFFFFFF&}Selamat datang di hari ketiga dari series gua.\N{\c&H50C8F5&}Welcome to day three of my series.
+
+Dialogue: 0,0:00:03.32,0:00:07.76,BL,,0,0,0,,{\c&HFFFFFF&}Pernahkah kau penasaran gimana perusahaan besar bisa memprediksi harga saham sebelum berita keluar?\N{\c&H50C8F5&}Ever wondered how big firms predict stock prices before the news drops?
+
+Dialogue: 0,0:00:07.76,0:00:12.02,BL,,0,0,0,,{\c&HFFFFFF&}Jawabannya ada di video ini.\N{\c&H50C8F5&}The answer is in this video.
+
+Dialogue: 0,0:00:12.29,0:00:16.33,BL,,0,0,0,,{\c&HFFFFFF&}Lu pikir ke supermarket gak ada yang lacak? Mana ada, bos!\N{\c&H50C8F5&}Think nobody tracks you at the supermarket? No chance, boss!
+
+Dialogue: 0,0:00:16.55,0:00:21.23,BL,,0,0,0,,{\c&HFFFFFF&}Hedge fund pakai satelit buat melacak kondisi parkiran di lebih dari 67 ribu toko,\N{\c&H50C8F5&}Hedge funds use satellites to track parking lots at 67,000+ stores,
+
+Dialogue: 0,0:00:21.23,0:00:25.87,BL,,0,0,0,,{\c&HFFFFFF&}biar mereka tahu seberapa laku toko-toko ini.\N{\c&H50C8F5&}so they know how well these stores are selling.
+
+Dialogue: 0,0:00:26.01,0:00:32.29,BL,,0,0,0,,{\c&HFFFFFF&}Mereka juga beli data transaksi buat merekonstruksi omzet perusahaan sebelum datanya keluar.\N{\c&H50C8F5&}They also buy transaction data to rebuild a firm's revenue before it's released.
+
+Dialogue: 0,0:00:32.45,0:00:38.43,BL,,0,0,0,,{\c&HFFFFFF&}Menurut laporan, fund yang pakai cara ini bisa menaikkan akurasi mereka sampai 10%.\N{\c&H50C8F5&}Reportedly, funds using this lift their accuracy by up to 10%.
+
+Dialogue: 0,0:00:38.63,0:00:43.83,BL,,0,0,0,,{\c&HFFFFFF&}Kalau online gimana? Perusahaan pakai sesuatu yang disebut web scraping.\N{\c&H50C8F5&}What about online? Companies deploy something called web scraping.
+
+Dialogue: 0,0:00:44.01,0:00:50.85,BL,,0,0,0,,{\c&HFFFFFF&}Alat yang bisa mengeruk jutaan halaman web: lowongan kerja, harga produk, sampai jumlah download.\N{\c&H50C8F5&}A tool that scrapes millions of pages: job listings, prices, even download counts.
+
+Dialogue: 0,0:00:51.05,0:00:54.83,BL,,0,0,0,,{\c&HFFFFFF&}Semua ini adalah faktor pertumbuhan sebuah perusahaan atau ekonomi.\N{\c&H50C8F5&}All of these are factors of growth in a company or the economy.
+
+Dialogue: 0,0:00:54.83,0:00:59.39,BL,,0,0,0,,{\c&HFFFFFF&}Contohnya, naiknya lowongan kerja bisa menandakan industri yang sedang tumbuh.\N{\c&H50C8F5&}For example, more job listings can signal a growing industry.
+
+Dialogue: 0,0:00:59.58,0:01:03.86,BL,,0,0,0,,{\c&HFFFFFF&}Nah, yang ini mungkin paling relevan buat kita: Google Trends.\N{\c&H50C8F5&}Now this may be the most applicable to us: Google Trends.
+
+Dialogue: 0,0:01:04.08,0:01:08.16,BL,,0,0,0,,{\c&HFFFFFF&}Volume orang yang mencari kata kunci seperti ‘tarif’ atau ‘utang’\N{\c&H50C8F5&}The volume of people searching keywords like ‘tariff’ or ‘debt’
+
+Dialogue: 0,0:01:08.16,0:01:11.80,BL,,0,0,0,,{\c&HFFFFFF&}bisa jadi peringatan kalau ada gerakan besar di bawah pasar.\N{\c&H50C8F5&}can warn us a big move is brewing under the market.
+
+Dialogue: 0,0:01:11.97,0:01:16.21,BL,,0,0,0,,{\c&HFFFFFF&}Masalahnya, informasi ini terlalu publik sampai hampir bukan keunggulan.\N{\c&H50C8F5&}The problem is, this info is so public it's barely an edge.
+
+Dialogue: 0,0:01:16.37,0:01:20.23,BL,,0,0,0,,{\c&HFFFFFF&}Ya, pada akhirnya, semua teknik ini cuma soal data mentah.\N{\c&H50C8F5&}Yeah, at the end of the day, these are all just raw data.
+
+Dialogue: 0,0:01:20.43,0:01:24.35,BL,,0,0,0,,{\c&HFFFFFF&}Buat benar-benar memakai data ini, kita perlu yang namanya machine learning,\N{\c&H50C8F5&}To actually use this data, we need something called machine learning,
+
+Dialogue: 0,0:01:24.35,0:01:28.93,BL,,0,0,0,,{\c&HFFFFFF&}di video selanjutnya. Peace.\N{\c&H50C8F5&}in the next video. Peace.

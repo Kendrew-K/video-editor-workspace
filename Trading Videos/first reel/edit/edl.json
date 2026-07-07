@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_0882": "<REPO_ROOT>/Trading Videos/first reel/IMG_0882.MOV",
+    "IMG_0883": "<REPO_ROOT>/Trading Videos/first reel/IMG_0883.MOV",
+    "IMG_0884": "<REPO_ROOT>/Trading Videos/first reel/IMG_0884.MOV",
+    "IMG_0887": "<REPO_ROOT>/Trading Videos/first reel/IMG_0887.MOV",
+    "IMG_0894": "<REPO_ROOT>/Trading Videos/first reel/IMG_0894.MOV",
+    "IMG_0897": "<REPO_ROOT>/Trading Videos/first reel/IMG_0897.MOV",
+    "IMG_0898": "<REPO_ROOT>/Trading Videos/first reel/IMG_0898.MOV"
+  },
+  "ranges": [
+    {"source": "IMG_0882", "start": 2.31, "end": 4.78,  "beat": "HOOK_A",      "quote": "I want to earn money."},
+    {"source": "IMG_0882", "start": 8.61, "end": 15.42, "beat": "HOOK_B",      "quote": "dengan rupiah yang sekarang lagi anjlok, there's no better time to earn dollars."},
+    {"source": "IMG_0883", "start": 2.27, "end": 4.74,  "beat": "QUESTION",    "quote": "So how will I earn the dollars?"},
+    {"source": "IMG_0883", "start": 5.20, "end": 6.90,  "beat": "TRADING_REVEAL", "quote": "Dengan apa? Dengan trading!", "reason": "Scribe labeled this as '(in English)' audio_event at 5.50-6.52; ~6s mark in clip"},
+    {"source": "IMG_0884", "start": 2.57, "end": 8.24,  "beat": "MASTER_PLAN", "quote": "Tunggu tunggu tunggu! Sebelum kalian panggil gua scammer, listen first to my master plan."},
+    {"source": "IMG_0887", "start": 1.73, "end": 8.82,  "beat": "STEP1",       "quote": "Pertama, research tentang semua fundamental techniques yang sudah dipakai oleh Wall Street traders sekarang ini."},
+    {"source": "IMG_0887", "start": 31.45,"end": 40.44, "beat": "STEP2",       "quote": "Kedua, dari semua trading techniques yang gua sudah research, gua akan memilih top tiga techniques yang menurut gua akan sukses di market sekarang ini.", "reason": "Trimmed to 40.44 — cuts right after 'sekarang ini', removes phone-reach"},
+    {"source": "IMG_0894", "start": 1.63, "end": 13.78, "beat": "STEP3",       "quote": "Ketiga, gue akan translate semua teknis-teknis ini into coding language. Habis itu gue akan connect semua ini into Connect Trade agar kita bisa trade secara otomatis."},
+    {"source": "IMG_0897", "start": 1.57, "end": 8.26,  "beat": "STEP5",       "quote": "Dan terakhir, gue akan link semua ini kepada sistem agar kita bisa menjalankan rutin ini setiap hari.", "reason": "Cuts throat-clear at 9.7s"},
+    {"source": "IMG_0898", "start": 1.69, "end": 8.12,  "beat": "CTA",         "quote": "Jika kalian penasaran dengan perjalanan gua ini, tinggal like, comment, share, dan follow gua di IG ini."},
+    {"source": "IMG_0898", "start": 12.55,"end": 20.13, "beat": "OUTRO",       "quote": "with that said, my name is Kendrew. This is day one of my trading series, and I'll see you tomorrow. Peace.", "reason": "Ends at 19.50 — right as hand covers screen"}
+  ],
+  "grade": "none",
+  "subtitles": "master.ass",
+  "total_duration_s": 67.66
+}

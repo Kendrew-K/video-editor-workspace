@@ -1,0 +1,225 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.8234829902648926,
+  "text": "Menurut report fans yang menggunakan cara ini dapat menaikkan akurasi mereka sebesar sepuluh persen.",
+  "words": [
+    {
+      "text": "Menurut",
+      "start": 1.959,
+      "end": 2.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004846765208632016
+    },
+    {
+      "text": " ",
+      "start": 2.359,
+      "end": 2.399,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0041097477078437805
+    },
+    {
+      "text": "report",
+      "start": 2.399,
+      "end": 3.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0041097477078437805
+    },
+    {
+      "text": " ",
+      "start": 3.019,
+      "end": 3.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2007427215576172
+    },
+    {
+      "text": "fans",
+      "start": 3.099,
+      "end": 3.319,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2007427215576172
+    },
+    {
+      "text": " ",
+      "start": 3.319,
+      "end": 3.339,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00030322244856506586
+    },
+    {
+      "text": "yang",
+      "start": 3.339,
+      "end": 3.439,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00030322244856506586
+    },
+    {
+      "text": " ",
+      "start": 3.439,
+      "end": 3.499,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00018749863374978304
+    },
+    {
+      "text": "menggunakan",
+      "start": 3.5,
+      "end": 3.939,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00018749863374978304
+    },
+    {
+      "text": " ",
+      "start": 3.939,
+      "end": 3.979,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.986990567587782e-06
+    },
+    {
+      "text": "cara",
+      "start": 3.98,
+      "end": 4.219,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.986990567587782e-06
+    },
+    {
+      "text": " ",
+      "start": 4.219,
+      "end": 4.299,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.280832192511298e-05
+    },
+    {
+      "text": "ini",
+      "start": 4.299,
+      "end": 4.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.280832192511298e-05
+    },
+    {
+      "text": " ",
+      "start": 4.799,
+      "end": 4.819,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009119288064539433
+    },
+    {
+      "text": "dapat",
+      "start": 4.819,
+      "end": 5.079,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009119288064539433
+    },
+    {
+      "text": " ",
+      "start": 5.079,
+      "end": 5.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00016616393986623734
+    },
+    {
+      "text": "menaikkan",
+      "start": 5.099,
+      "end": 5.579,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00016606630239913834
+    },
+    {
+      "text": " ",
+      "start": 5.579,
+      "end": 5.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.504691630951129e-05
+    },
+    {
+      "text": "akurasi",
+      "start": 5.639,
+      "end": 6.039,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002061275060571331
+    },
+    {
+      "text": " ",
+      "start": 6.039,
+      "end": 6.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.728519782773219e-05
+    },
+    {
+      "text": "mereka",
+      "start": 6.099,
+      "end": 6.379,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.728519782773219e-05
+    },
+    {
+      "text": " ",
+      "start": 6.379,
+      "end": 6.499,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.8371408916427754e-05
+    },
+    {
+      "text": "sebesar",
+      "start": 6.5,
+      "end": 7.039,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.4165037172809078e-05
+    },
+    {
+      "text": " ",
+      "start": 7.039,
+      "end": 7.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0016346914926543832
+    },
+    {
+      "text": "sepuluh",
+      "start": 7.059,
+      "end": 7.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007078026767755676
+    },
+    {
+      "text": " ",
+      "start": 7.519,
+      "end": 7.559,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00014745102089364082
+    },
+    {
+      "text": "persen.",
+      "start": 7.559,
+      "end": 7.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0025187836311338124
+    }
+  ],
+  "transcription_id": "dFqKHds24HezyQGnd3m9",
+  "audio_duration_secs": 9.94
+}

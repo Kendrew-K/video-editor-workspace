@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_0938": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0938.MOV",
+    "IMG_0947": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0947.MOV",
+    "IMG_0949": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0949.MOV",
+    "IMG_0951": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0951.MOV",
+    "IMG_0952": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0952.MOV",
+    "IMG_0955": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0955.MOV",
+    "IMG_0956": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0956.MOV",
+    "IMG_0957": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0957.MOV",
+    "IMG_0960": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0960.MOV",
+    "IMG_0962": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0962.MOV",
+    "IMG_0964": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0964.MOV",
+    "IMG_0965": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0965.MOV",
+    "IMG_0967": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0967.MOV",
+    "IMG_0970": "<REPO_ROOT>/Trading Videos/Research reel 2/IMG_0970.MOV"
+  },
+  "ranges": [
+    {"source": "IMG_0938", "start": 2.10, "end": 5.28, "beat": "INTRO", "quote": "Welcome fellas to day three of my series."},
+    {"source": "IMG_0947", "start": 1.62, "end": 10.52, "beat": "INTRO", "quote": "Pernahkah kau penasaran gimana perusahaan besar memprediksi harga stok sebelum news keluar? Jawabannya ada di video ini."},
+    {"source": "IMG_0949", "start": 1.95, "end": 6.30, "beat": "SATELLITE", "quote": "Lu pikir lu ke supermarket gak ada yang lacak? Mana ada bos!"},
+    {"source": "IMG_0951", "start": 1.80, "end": 11.30, "beat": "SATELLITE", "quote": "Hedge funds pada menggunakan satellite untuk melacak kondisi parkiran di lebih dari 67 ribu toko."},
+    {"source": "IMG_0952", "start": 1.40, "end": 7.84, "beat": "SATELLITE", "quote": "Mereka pun beli data transaksi perusahaan untuk rekonstruksi omset sebelum data itu keluar."},
+    {"source": "IMG_0955", "start": 1.88, "end": 8.02, "beat": "SATELLITE", "quote": "Menurut report, fans yang menggunakan cara ini dapat menaikkan akurasi mereka sebesar sepuluh persen."},
+    {"source": "IMG_0956", "start": 1.62, "end": 7.00, "beat": "WEBSCRAPE", "quote": "Well, what about online? Companies like to deploy something we call web scraping."},
+    {"source": "IMG_0957", "start": 1.82, "end": 8.86, "beat": "WEBSCRAPE", "quote": "Sebuah alat yang bisa mengeruk millions of web dari lowongan kerja, harga produk, sampai number of downloads."},
+    {"source": "IMG_0960", "start": 1.50, "end": 10.02, "beat": "WEBSCRAPE", "quote": "All of these are factors of growth in a company or the economy. For example, an increase in job listings may indicate a growing industry."},
+    {"source": "IMG_0962", "start": 1.85, "end": 6.36, "beat": "GTRENDS", "quote": "Now this may be the most applicable to us: Google Trends."},
+    {"source": "IMG_0964", "start": 2.20, "end": 10.12, "beat": "GTRENDS", "quote": "Volume orang yang mencari kata kunci seperti tarif atau utang bisa menjadi peringatan bahwa ada gerakan besar di bawah pasaran."},
+    {"source": "IMG_0965", "start": 1.55, "end": 5.96, "beat": "GTRENDS", "quote": "The problem is this information is so public that it's barely an edge."},
+    {"source": "IMG_0967", "start": 1.40, "end": 5.42, "beat": "RECAP", "quote": "Ya, at the end of the day, semua teknik ini membahas data yang mentah."},
+    {"source": "IMG_0970", "start": 2.10, "end": 10.85, "beat": "TEASE", "quote": "To actually use this data, we have to deploy something called machine learning, in the next video. Peace."}
+  ],
+  "grade": "split=2[fg][bgsrc];[bgsrc]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:6,eq=brightness=-0.30:saturation=0.40[bg];[fg]scale=1188:-2,crop=1080:1920:(in_w-1080)/2:0[fgc];[bg][fgc]overlay=0:620",
+  "overlays": [
+    {"file": "animations/slot_spy_day3/render.mov",        "start_in_output": 0.3,  "duration": 2.9},
+    {"file": "animations/slot_gfx_satellite/render.mov",   "start_in_output": 17.0, "duration": 8.0},
+    {"file": "animations/slot_src_satellite/render.mov",   "start_in_output": 25.0, "duration": 5.0},
+    {"file": "animations/slot_src_transaction/render.mov", "start_in_output": 30.0, "duration": 5.0},
+    {"file": "animations/slot_gfx_akurasi/render.mov",     "start_in_output": 35.3, "duration": 3.8},
+    {"file": "animations/slot_gfx_webscrape/render.mov",   "start_in_output": 39.0, "duration": 11.0},
+    {"file": "animations/slot_gfx_gtrends/render.mov",    "start_in_output": 60.0, "duration": 9.5},
+    {"file": "animations/slot_src_gtrends/render.mov",    "start_in_output": 70.0, "duration": 6.0}
+  ],
+  "subtitles": "master_v1.ass",
+  "total_duration_s": 89.1
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_0982": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0982.MOV",
+    "IMG_0983": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0983.MOV",
+    "IMG_0984": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0984.MOV",
+    "IMG_0985": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0985.MOV",
+    "IMG_0988": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0988.MOV",
+    "IMG_0989": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0989.MOV",
+    "IMG_0991": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0991.MOV",
+    "IMG_0992": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0992.MOV",
+    "IMG_0993": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0993.MOV",
+    "IMG_0996": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0996.MOV",
+    "IMG_0997": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0997.MOV",
+    "IMG_0998": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0998.MOV"
+  },
+  "ranges": [
+    {"source": "IMG_0982", "start": 1.92, "end": 6.98,  "beat": "INTRO",       "quote": "Day 4 is here, and we're diving straight into machine learning and neural network."},
+    {"source": "IMG_0983", "start": 1.88, "end": 8.40,  "beat": "FACTOR_ZOO",  "quote": "Dalam lima puluh tahun terakhir, scientists have discovered hundreds of factors yang bisa affect the stock market."},
+    {"source": "IMG_0984", "start": 1.66, "end": 9.64,  "beat": "REPLICATION", "quote": "However, sixty-five percent of those factors are simple noise that can't be replicated in the market as shown by this research paper made in 2020"},
+    {"source": "IMG_0985", "start": 1.60, "end": 10.08, "beat": "NEURAL_NET",  "quote": "So instead of guessing the importance of each factors, scientists used neural network, a system that replicated the human brain using layers of nodes or neurons."},
+    {"source": "IMG_0988", "start": 1.96, "end": 7.90,  "beat": "RESULT_NN",   "quote": "Mereka mencari tahu bahwa sistem ini menaikkan Sharpe Ratio and R Square Ratio by almost double!"},
+    {"source": "IMG_0989", "start": 1.78, "end": 8.34,  "beat": "RL_INTRO",    "quote": "Mereka pun mencoba sistem reinforcement learning, sebuah sistem that rewards agents kalau cuan dan hukum agents kalau rugi."},
+    {"source": "IMG_0991", "start": 1.82, "end": 7.00,  "beat": "RL_MECHANISM","quote": "Dengan sistem ini, agents pun mulai belajar pola-pola di mana mereka cuan sesering mungkin."},
+    {"source": "IMG_0992", "start": 1.10, "end": 6.92,  "beat": "RESULT_RL",   "quote": "This system managed to secure a sharpe ratio of two and an out-of-sample alpha of 13%."},
+    {"source": "IMG_0993", "start": 1.48, "end": 8.88,  "beat": "WHY_NOT",     "quote": "Nah, sekarang kita sudah discuss dua sistem. They've generated a high Sharpe and R squared ratio, so why don't everyone use them."},
+    {"source": "IMG_0996", "start": 2.36, "end": 8.50,  "beat": "CAVEAT_1",    "quote": "Masalahnya, hasil riset ini masih mentah. They haven't considered transaction costs and crowding."},
+    {"source": "IMG_0997", "start": 1.84, "end": 7.64,  "beat": "CAVEAT_2",    "quote": "Strategia emang penting, tapi jika semua orang menggunakan strategi yang sama, there goes your edge."},
+    {"source": "IMG_0998", "start": 1.68, "end": 17.54, "beat": "TEASE_OUTRO", "quote": "Tapi ini semua kan hanya angka. Di video selanjutnya... This is Ken Drew, see you on the next video. Peace!"}
+  ],
+  "grade": "none",
+  "overlays": [
+    {"file": "animations/slot_pvz_day4/render.mov",      "start_in_output": 0.20,  "duration": 2.90},
+    {"file": "animations/slot_gfx_zoo/render.mov",       "start_in_output": 5.30,  "duration": 5.20},
+    {"file": "animations/slot_src_hou2020/render.mov",   "start_in_output": 13.00, "duration": 5.00},
+    {"file": "animations/slot_gfx_nn/render.mov",        "start_in_output": 19.80, "duration": 6.00},
+    {"file": "animations/slot_src_gu2020/render.mov",    "start_in_output": 25.90, "duration": 5.50},
+    {"file": "animations/slot_gfx_result_nn/render.mov", "start_in_output": 29.50, "duration": 4.20},
+    {"file": "animations/slot_gfx_rl/render.mov",        "start_in_output": 34.20, "duration": 6.20},
+    {"file": "animations/slot_src_alphaport/render.mov", "start_in_output": 41.00, "duration": 4.50},
+    {"file": "animations/slot_gfx_result_rl/render.mov", "start_in_output": 46.00, "duration": 5.30},
+    {"file": "animations/slot_gfx_decay/render.mov",     "start_in_output": 59.20, "duration": 8.00}
+  ],
+  "subtitles": "master_v1.ass",
+  "total_duration_s": 86.74
+}

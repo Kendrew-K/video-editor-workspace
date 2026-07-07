@@ -1,0 +1,209 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.9884070158004761,
+  "text": "The problem is this information is so public that it's barely an edge.",
+  "words": [
+    {
+      "text": "The",
+      "start": 1.639,
+      "end": 1.719,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.12904049456119537
+    },
+    {
+      "text": " ",
+      "start": 1.719,
+      "end": 1.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.709961988031864e-05
+    },
+    {
+      "text": "problem",
+      "start": 1.759,
+      "end": 2.039,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.709961988031864e-05
+    },
+    {
+      "text": " ",
+      "start": 2.039,
+      "end": 2.139,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.460934673668817e-05
+    },
+    {
+      "text": "is",
+      "start": 2.139,
+      "end": 2.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.460934673668817e-05
+    },
+    {
+      "text": " ",
+      "start": 2.659,
+      "end": 2.699,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.7060725688934326
+    },
+    {
+      "text": "this",
+      "start": 2.7,
+      "end": 2.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.7060725688934326
+    },
+    {
+      "text": " ",
+      "start": 2.799,
+      "end": 2.859,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00016604475968051702
+    },
+    {
+      "text": "information",
+      "start": 2.859,
+      "end": 3.379,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00016604475968051702
+    },
+    {
+      "text": " ",
+      "start": 3.379,
+      "end": 3.399,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.9205850296420977e-05
+    },
+    {
+      "text": "is",
+      "start": 3.399,
+      "end": 3.599,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.9205850296420977e-05
+    },
+    {
+      "text": " ",
+      "start": 3.599,
+      "end": 3.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00039641151670366526
+    },
+    {
+      "text": "so",
+      "start": 3.639,
+      "end": 3.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00039641151670366526
+    },
+    {
+      "text": " ",
+      "start": 3.859,
+      "end": 3.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.71926071238704e-05
+    },
+    {
+      "text": "public",
+      "start": 3.899,
+      "end": 4.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.71926071238704e-05
+    },
+    {
+      "text": " ",
+      "start": 4.5,
+      "end": 4.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.029818223789334297
+    },
+    {
+      "text": "that",
+      "start": 4.539,
+      "end": 4.619,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.029818223789334297
+    },
+    {
+      "text": " ",
+      "start": 4.619,
+      "end": 4.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00035089056473225355
+    },
+    {
+      "text": "it's",
+      "start": 4.639,
+      "end": 4.879,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003829238179605454
+    },
+    {
+      "text": " ",
+      "start": 4.879,
+      "end": 4.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00017498392844572663
+    },
+    {
+      "text": "barely",
+      "start": 4.9,
+      "end": 5.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00017498392844572663
+    },
+    {
+      "text": " ",
+      "start": 5.279,
+      "end": 5.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010668662434909493
+    },
+    {
+      "text": "an",
+      "start": 5.319,
+      "end": 5.44,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010668662434909493
+    },
+    {
+      "text": " ",
+      "start": 5.44,
+      "end": 5.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005970602505840361
+    },
+    {
+      "text": "edge.",
+      "start": 5.539,
+      "end": 5.879,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007069945335388183
+    }
+  ],
+  "transcription_id": "Dwfed3KsZfhFmaQxkjoL",
+  "audio_duration_secs": 7.3586875
+}

@@ -1,0 +1,257 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.6814438700675964,
+  "text": "Dalam jangka waktu itu, stok bisa naik dua puluh persen, empat sampai delapan minggu sebelum announcement.",
+  "words": [
+    {
+      "text": "Dalam",
+      "start": 1.759,
+      "end": 1.979,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005351181200239808
+    },
+    {
+      "text": " ",
+      "start": 1.979,
+      "end": 2.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.2278481335670222e-05
+    },
+    {
+      "text": "jangka",
+      "start": 2.039,
+      "end": 2.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.219900286741904e-05
+    },
+    {
+      "text": " ",
+      "start": 2.259,
+      "end": 2.319,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.3828182090946939e-05
+    },
+    {
+      "text": "waktu",
+      "start": 2.319,
+      "end": 2.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.3828182090946939e-05
+    },
+    {
+      "text": " ",
+      "start": 2.519,
+      "end": 2.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.1960789531003684e-05
+    },
+    {
+      "text": "itu,",
+      "start": 2.599,
+      "end": 2.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002460743799019838
+    },
+    {
+      "text": " ",
+      "start": 2.859,
+      "end": 3.279,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.20170314610004425
+    },
+    {
+      "text": "stok",
+      "start": 3.279,
+      "end": 3.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.10085932159381628
+    },
+    {
+      "text": " ",
+      "start": 3.559,
+      "end": 3.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": "bisa",
+      "start": 3.599,
+      "end": 3.779,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": " ",
+      "start": 3.779,
+      "end": 3.839,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.98412734689191e-05
+    },
+    {
+      "text": "naik",
+      "start": 3.839,
+      "end": 4.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.009945064036401e-05
+    },
+    {
+      "text": " ",
+      "start": 4.099,
+      "end": 4.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009610576555132866
+    },
+    {
+      "text": "dua",
+      "start": 4.159,
+      "end": 4.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009610576555132866
+    },
+    {
+      "text": " ",
+      "start": 4.38,
+      "end": 4.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.080780778778717e-05
+    },
+    {
+      "text": "puluh",
+      "start": 4.5,
+      "end": 4.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.6611917281989e-05
+    },
+    {
+      "text": " ",
+      "start": 4.659,
+      "end": 4.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.691245941212401e-05
+    },
+    {
+      "text": "persen,",
+      "start": 4.759,
+      "end": 5.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.001721189070004974
+    },
+    {
+      "text": " ",
+      "start": 5.159,
+      "end": 5.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00037245964631438255
+    },
+    {
+      "text": "empat",
+      "start": 5.519,
+      "end": 5.759,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00019003813213203102
+    },
+    {
+      "text": " ",
+      "start": 5.759,
+      "end": 5.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.002655553398653865
+    },
+    {
+      "text": "sampai",
+      "start": 5.879,
+      "end": 6.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0017715212869309955
+    },
+    {
+      "text": " ",
+      "start": 6.099,
+      "end": 6.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.11329749971628189
+    },
+    {
+      "text": "delapan",
+      "start": 6.159,
+      "end": 6.419,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.048560294706216416
+    },
+    {
+      "text": " ",
+      "start": 6.419,
+      "end": 6.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00032884435495361686
+    },
+    {
+      "text": "minggu",
+      "start": 6.44,
+      "end": 6.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00022014350656718307
+    },
+    {
+      "text": " ",
+      "start": 6.739,
+      "end": 6.779,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.7881377516459906e-06
+    },
+    {
+      "text": "sebelum",
+      "start": 6.779,
+      "end": 7.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.637506658803821e-05
+    },
+    {
+      "text": " ",
+      "start": 7.279,
+      "end": 7.339,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00031263710116036236
+    },
+    {
+      "text": "announcement.",
+      "start": 7.339,
+      "end": 7.979,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00029121065297378943
+    }
+  ],
+  "transcription_id": "pZ8EYZ23QfQlFu4OitAP",
+  "audio_duration_secs": 9.4493125
+}

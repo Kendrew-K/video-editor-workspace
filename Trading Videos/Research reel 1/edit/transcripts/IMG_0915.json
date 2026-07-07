@@ -1,0 +1,289 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.9122662544250488,
+  "text": "Akibatnya, harga stok ini bisa naik atau turun selama beberapa minggu. Inilah yang disebut sebagai analyst driven momentum.",
+  "words": [
+    {
+      "text": "Akibatnya,",
+      "start": 1.159,
+      "end": 1.779,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0041872252503694085
+    },
+    {
+      "text": " ",
+      "start": 1.779,
+      "end": 1.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.544376083184034e-05
+    },
+    {
+      "text": "harga",
+      "start": 1.879,
+      "end": 2.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.544376083184034e-05
+    },
+    {
+      "text": " ",
+      "start": 2.099,
+      "end": 2.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.008637804538011551
+    },
+    {
+      "text": "stok",
+      "start": 2.159,
+      "end": 2.419,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004325577944655379
+    },
+    {
+      "text": " ",
+      "start": 2.419,
+      "end": 2.479,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.529942543740617e-06
+    },
+    {
+      "text": "ini",
+      "start": 2.48,
+      "end": 2.679,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.529942543740617e-06
+    },
+    {
+      "text": " ",
+      "start": 2.679,
+      "end": 2.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002919009421020746
+    },
+    {
+      "text": "bisa",
+      "start": 2.759,
+      "end": 3.0,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002919009421020746
+    },
+    {
+      "text": " ",
+      "start": 3.0,
+      "end": 3.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.164221460698172e-05
+    },
+    {
+      "text": "naik",
+      "start": 3.039,
+      "end": 3.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.7192012200648605e-05
+    },
+    {
+      "text": " ",
+      "start": 3.359,
+      "end": 3.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -6.246371776796877e-05
+    },
+    {
+      "text": "atau",
+      "start": 3.419,
+      "end": 3.579,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -6.246371776796877e-05
+    },
+    {
+      "text": " ",
+      "start": 3.579,
+      "end": 3.619,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.490105023549404e-05
+    },
+    {
+      "text": "turun",
+      "start": 3.619,
+      "end": 3.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.512834321867557e-06
+    },
+    {
+      "text": " ",
+      "start": 3.839,
+      "end": 4.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003570872650016099
+    },
+    {
+      "text": "selama",
+      "start": 4.039,
+      "end": 4.38,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00019159687963110628
+    },
+    {
+      "text": " ",
+      "start": 4.38,
+      "end": 4.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0984884649515152
+    },
+    {
+      "text": "beberapa",
+      "start": 4.42,
+      "end": 4.9,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0984884649515152
+    },
+    {
+      "text": " ",
+      "start": 4.9,
+      "end": 4.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -7.164221460698172e-05
+    },
+    {
+      "text": "minggu.",
+      "start": 4.94,
+      "end": 5.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.274727743476563e-05
+    },
+    {
+      "text": " ",
+      "start": 5.259,
+      "end": 5.699,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0007177399238571525
+    },
+    {
+      "text": "Inilah",
+      "start": 5.699,
+      "end": 5.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00025243891354875814
+    },
+    {
+      "text": " ",
+      "start": 5.98,
+      "end": 6.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00012087091454304755
+    },
+    {
+      "text": "yang",
+      "start": 6.0,
+      "end": 6.079,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00012087091454304755
+    },
+    {
+      "text": " ",
+      "start": 6.079,
+      "end": 6.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.237022848334163e-05
+    },
+    {
+      "text": "disebut",
+      "start": 6.099,
+      "end": 6.579,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.669797648139398e-05
+    },
+    {
+      "text": " ",
+      "start": 6.579,
+      "end": 6.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.002379921032115817
+    },
+    {
+      "text": "sebagai",
+      "start": 6.639,
+      "end": 7.079,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.002379921032115817
+    },
+    {
+      "text": " ",
+      "start": 7.079,
+      "end": 7.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.6610203981399536
+    },
+    {
+      "text": "analyst",
+      "start": 7.159,
+      "end": 7.639,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.6610203981399536
+    },
+    {
+      "text": " ",
+      "start": 7.639,
+      "end": 7.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.16058610379695892
+    },
+    {
+      "text": "driven",
+      "start": 7.719,
+      "end": 8.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.16058610379695892
+    },
+    {
+      "text": " ",
+      "start": 8.099,
+      "end": 8.139,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0003002431185450405
+    },
+    {
+      "text": "momentum.",
+      "start": 8.139,
+      "end": 8.579,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.015726892148248024
+    }
+  ],
+  "transcription_id": "KSioiH4JfJoVeiSdoHlA",
+  "audio_duration_secs": 9.8333125
+}

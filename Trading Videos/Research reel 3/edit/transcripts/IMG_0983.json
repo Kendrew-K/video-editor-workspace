@@ -1,0 +1,273 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.7925213575363159,
+  "text": "Dalam lima puluh tahun terakhir, scientists have discovered hundreds of factors yang bisa affect the stock market.",
+  "words": [
+    {
+      "text": "Dalam",
+      "start": 1.879,
+      "end": 2.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0030498528853058816
+    },
+    {
+      "text": " ",
+      "start": 2.159,
+      "end": 2.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0843752771615982
+    },
+    {
+      "text": "lima",
+      "start": 2.179,
+      "end": 2.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.08875282481312752
+    },
+    {
+      "text": " ",
+      "start": 2.359,
+      "end": 2.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008231588872149587
+    },
+    {
+      "text": "puluh",
+      "start": 2.419,
+      "end": 2.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005166874994756654
+    },
+    {
+      "text": " ",
+      "start": 2.559,
+      "end": 2.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008322112844325602
+    },
+    {
+      "text": "tahun",
+      "start": 2.599,
+      "end": 2.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008322112844325602
+    },
+    {
+      "text": " ",
+      "start": 2.74,
+      "end": 2.799,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00033968876232393086
+    },
+    {
+      "text": "terakhir,",
+      "start": 2.799,
+      "end": 3.22,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0015556100325840008
+    },
+    {
+      "text": " ",
+      "start": 3.22,
+      "end": 3.699,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.1328759640455246
+    },
+    {
+      "text": "scientists",
+      "start": 3.699,
+      "end": 4.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.1328759640455246
+    },
+    {
+      "text": " ",
+      "start": 4.4,
+      "end": 4.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0013737775152549148
+    },
+    {
+      "text": "have",
+      "start": 4.44,
+      "end": 4.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0013737775152549148
+    },
+    {
+      "text": " ",
+      "start": 4.559,
+      "end": 4.579,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0012181727215647697
+    },
+    {
+      "text": "discovered",
+      "start": 4.579,
+      "end": 5.279,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0012181727215647697
+    },
+    {
+      "text": " ",
+      "start": 5.279,
+      "end": 5.299,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004697477910667658
+    },
+    {
+      "text": "hundreds",
+      "start": 5.299,
+      "end": 5.679,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.004697477910667658
+    },
+    {
+      "text": " ",
+      "start": 5.679,
+      "end": 5.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0020536540541797876
+    },
+    {
+      "text": "of",
+      "start": 5.719,
+      "end": 5.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0020536540541797876
+    },
+    {
+      "text": " ",
+      "start": 5.859,
+      "end": 5.859,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0019073167350143194
+    },
+    {
+      "text": "factors",
+      "start": 5.859,
+      "end": 6.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0019073167350143194
+    },
+    {
+      "text": " ",
+      "start": 6.519,
+      "end": 6.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0109567204490304
+    },
+    {
+      "text": "yang",
+      "start": 6.599,
+      "end": 6.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0109567204490304
+    },
+    {
+      "text": " ",
+      "start": 6.739,
+      "end": 6.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.672895011026412e-05
+    },
+    {
+      "text": "bisa",
+      "start": 6.759,
+      "end": 6.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.672895011026412e-05
+    },
+    {
+      "text": " ",
+      "start": 6.98,
+      "end": 7.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00226693507283926
+    },
+    {
+      "text": "affect",
+      "start": 7.039,
+      "end": 7.399,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00226693507283926
+    },
+    {
+      "text": " ",
+      "start": 7.399,
+      "end": 7.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00151078961789608
+    },
+    {
+      "text": "the",
+      "start": 7.419,
+      "end": 7.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00151078961789608
+    },
+    {
+      "text": " ",
+      "start": 7.519,
+      "end": 7.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00012063252506777644
+    },
+    {
+      "text": "stock",
+      "start": 7.539,
+      "end": 7.98,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00012063252506777644
+    },
+    {
+      "text": " ",
+      "start": 7.98,
+      "end": 8.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.792098479811102e-05
+    },
+    {
+      "text": "market.",
+      "start": 8.039,
+      "end": 8.399,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00016190223478978233
+    }
+  ],
+  "transcription_id": "dcSp9mtnE45y85e3SRW5",
+  "audio_duration_secs": 9.94
+}

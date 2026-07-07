@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BL,Arial,34,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3,1,2,36,36,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.04,0:00:02.52,BL,,0,0,0,,{\c&HFFFFFF&}In 2024, kebanyakan Wall Street Trader\N{\c&H00FFFF&}In 2024, most Wall Street traders
+
+Dialogue: 0,0:00:02.52,0:00:04.92,BL,,0,0,0,,{\c&HFFFFFF&}pakai AI Agents untuk baca berita\N{\c&H00FFFF&}used AI Agents to read news
+
+Dialogue: 0,0:00:04.92,0:00:07.34,BL,,0,0,0,,{\c&HFFFFFF&}& buat keputusan trading dalam detik.\N{\c&H00FFFF&}& trade in seconds.
+
+Dialogue: 0,0:00:07.90,0:00:09.52,BL,,0,0,0,,{\c&HFFFFFF&}Tapi, kenapa di tahun ini\N{\c&H00FFFF&}But why, today,
+
+Dialogue: 0,0:00:09.52,0:00:11.00,BL,,0,0,0,,{\c&HFFFFFF&}kebanyakan itu sudah mati?\N{\c&H00FFFF&}have most of them died out?
+
+Dialogue: 0,0:00:11.82,0:00:12.02,BL,,0,0,0,,{\c&HFFFFFF&}Well,\N{\c&H00FFFF&}Well,
+
+Dialogue: 0,0:00:12.58,0:00:13.80,BL,,0,0,0,,{\c&HFFFFFF&}let's rewind first.\N{\c&H00FFFF&}let's rewind first.
+
+Dialogue: 0,0:00:13.96,0:00:16.48,BL,,0,0,0,,{\c&HFFFFFF&}Before we begin, welcome everyone to\N{\c&H00FFFF&}Before we begin, welcome everyone to
+
+Dialogue: 0,0:00:17.12,0:00:18.64,BL,,0,0,0,,{\c&HFFFFFF&}Day 5 of my trading series.\N{\c&H00FFFF&}Day 5 of my trading series.
+
+Dialogue: 0,0:00:18.71,0:00:21.27,BL,,0,0,0,,{\c&HFFFFFF&}Dari dulu, harga stok bukan dari data,\N{\c&H00FFFF&}Stock prices have never been about data,
+
+Dialogue: 0,0:00:21.27,0:00:23.67,BL,,0,0,0,,{\c&HFFFFFF&}tetapi dari gap antara realita\N{\c&H00FFFF&}but from the gap between reality
+
+Dialogue: 0,0:00:23.67,0:00:26.85,BL,,0,0,0,,{\c&HFFFFFF&}dan ekspektasi di dalam data itu.\N{\c&H00FFFF&}and expectations within that data.
+
+Dialogue: 0,0:00:26.93,0:00:30.01,BL,,0,0,0,,{\c&HFFFFFF&}Misalnya, forecast bilang 250.000\N{\c&H00FFFF&}Say the forecast predicts 250,000
+
+Dialogue: 0,0:00:30.01,0:00:34.93,BL,,0,0,0,,{\c&HFFFFFF&}lowongan kerja baru... tapi realitanya\N{\c&H00FFFF&}new jobs... but reality shows only
+
+Dialogue: 0,0:00:35.43,0:00:37.69,BL,,0,0,0,,{\c&HFFFFFF&}200.000 lowongan kerja yang baru.\N{\c&H00FFFF&}200,000 new jobs.
+
+Dialogue: 0,0:00:37.77,0:00:39.77,BL,,0,0,0,,{\c&HFFFFFF&}Kalian pasti pernah lihat video\N{\c&H00FFFF&}You've definitely seen the video
+
+Dialogue: 0,0:00:39.77,0:00:42.07,BL,,0,0,0,,{\c&HFFFFFF&}of Jerome Powell, Kepala Fed of America,\N{\c&H00FFFF&}of Jerome Powell, head of the Fed,
+
+Dialogue: 0,0:00:42.07,0:00:44.09,BL,,0,0,0,,{\c&HFFFFFF&}ketika dia memberi pidato.\N{\c&H00FFFF&}when he gives his speech.
+
+Dialogue: 0,0:00:44.13,0:00:46.09,BL,,0,0,0,,{\c&HFFFFFF&}Satu kata dari dia\N{\c&H00FFFF&}One word from him
+
+Dialogue: 0,0:00:46.09,0:00:48.15,BL,,0,0,0,,{\c&HFFFFFF&}bisa merubah harga stok secara drastis.\N{\c&H00FFFF&}can change stock prices drastically.
+
+Dialogue: 0,0:00:48.81,0:00:50.11,BL,,0,0,0,,{\c&HFFFFFF&}Inilah poin kedua gua.\N{\c&H00FFFF&}This is my second point.
+
+Dialogue: 0,0:00:50.15,0:00:53.07,BL,,0,0,0,,{\c&HFFFFFF&}Orang tidak lagi trade dari rate-nya,\N{\c&H00FFFF&}People no longer trade the actual rate,
+
+Dialogue: 0,0:00:53.07,0:00:56.07,BL,,0,0,0,,{\c&HFFFFFF&}melainkan dari kata-kata pemimpin\N{\c&H00FFFF&}but from the words leaders use
+
+Dialogue: 0,0:00:56.07,0:00:58.31,BL,,0,0,0,,{\c&HFFFFFF&}saat announcement.\N{\c&H00FFFF&}during the announcement.
+
+Dialogue: 0,0:00:58.35,0:01:01.07,BL,,0,0,0,,{\c&HFFFFFF&}Makanya Bloomberg punya sistem\N{\c&H00FFFF&}So Bloomberg built a system
+
+Dialogue: 0,0:01:01.07,0:01:04.07,BL,,0,0,0,,{\c&HFFFFFF&}yang bisa nge-skor semua headline\N{\c&H00FFFF&}that scores every headline instantly
+
+Dialogue: 0,0:01:04.07,0:01:07.47,BL,,0,0,0,,{\c&HFFFFFF&}yang dijual ke hedge fund-hedge fund besar\N{\c&H00FFFF&}sold to the world's biggest hedge funds
+
+Dialogue: 0,0:01:07.47,0:01:10.43,BL,,0,0,0,,{\c&HFFFFFF&}seharga ribuan sampai ratusan US dollar.\N{\c&H00FFFF&}for thousands to hundreds of USD.
+
+Dialogue: 0,0:01:10.51,0:01:12.83,BL,,0,0,0,,{\c&HFFFFFF&}Nah, balik lagi ke 2023.\N{\c&H00FFFF&}Now, let's go back to 2023.
+
+Dialogue: 0,0:01:12.83,0:01:15.23,BL,,0,0,0,,{\c&HFFFFFF&}waktu ChatGPT baru mulai mainstream.\N{\c&H00FFFF&}when ChatGPT just went mainstream.
+
+Dialogue: 0,0:01:15.23,0:01:19.27,BL,,0,0,0,,{\c&HFFFFFF&}Orang pakai ChatGPT buat prediksi harga.\N{\c&H00FFFF&}People used ChatGPT to predict stock prices.
+
+Dialogue: 0,0:01:19.35,0:01:20.39,BL,,0,0,0,,{\c&HFFFFFF&}Hasilnya,\N{\c&H00FFFF&}The result:
+
+Dialogue: 0,0:01:20.39,0:01:22.31,BL,,0,0,0,,{\c&HFFFFFF&}bagusnya minta ampun,\N{\c&H00FFFF&}Incredibly good,
+
+Dialogue: 0,0:01:22.31,0:01:23.91,BL,,0,0,0,,{\c&HFFFFFF&}Sharpe Ratio of 3.8.\N{\c&H00FFFF&}a Sharpe Ratio of 3.8.
+
+Dialogue: 0,0:01:24.47,0:01:26.71,BL,,0,0,0,,{\c&HFFFFFF&}Tapi, pada tahun 2024,\N{\c&H00FFFF&}But by 2024,
+
+Dialogue: 0,0:01:26.71,0:01:28.31,BL,,0,0,0,,{\c&HFFFFFF&}ini semua sudah mati. Kenapa?\N{\c&H00FFFF&}all of this died. Why?
+
+Dialogue: 0,0:01:28.91,0:01:30.71,BL,,0,0,0,,{\c&HFFFFFF&}Terlalu banyak orang\N{\c&H00FFFF&}Too many people
+
+Dialogue: 0,0:01:30.71,0:01:32.43,BL,,0,0,0,,{\c&HFFFFFF&}memakai metode yang sama.\N{\c&H00FFFF&}used the exact same method.
+
+Dialogue: 0,0:01:32.47,0:01:34.97,BL,,0,0,0,,{\c&HFFFFFF&}Mereka mulai pakai Agent Teams,\N{\c&H00FFFF&}They started using Agent Teams,
+
+Dialogue: 0,0:01:34.97,0:01:38.17,BL,,0,0,0,,{\c&HFFFFFF&}sekelompok agent yang debat\N{\c&H00FFFF&}a group of agents that debate
+
+Dialogue: 0,0:01:38.17,0:01:40.77,BL,,0,0,0,,{\c&HFFFFFF&}berbagai aspek data dan berita,\N{\c&H00FFFF&}different aspects of data and news,
+
+Dialogue: 0,0:01:40.77,0:01:42.35,BL,,0,0,0,,{\c&HFFFFFF&}dan hasilnya: return 26%!\N{\c&H00FFFF&}which reported a 26% return!
+
+Dialogue: 0,0:01:42.43,0:01:45.51,BL,,0,0,0,,{\c&HFFFFFF&}In reality, banyak trik yang\N{\c&H00FFFF&}In reality, many tricks that
+
+Dialogue: 0,0:01:45.51,0:01:49.29,BL,,0,0,0,,{\c&HFFFFFF&}bagus di kertas & backtest, gagal live.\N{\c&H00FFFF&}look good on paper & in backtest, fail live.
+
+Dialogue: 0,0:01:50.33,0:01:52.01,BL,,0,0,0,,{\c&HFFFFFF&}Di video selanjutnya,\N{\c&H00FFFF&}In the next video,
+
+Dialogue: 0,0:01:52.01,0:01:53.75,BL,,0,0,0,,{\c&HFFFFFF&}gua bahas actual game plan trading bot gua.\N{\c&H00FFFF&}I'll cover my actual trading bot game plan.

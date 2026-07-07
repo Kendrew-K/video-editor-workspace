@@ -1,0 +1,193 @@
+{
+  "language_code": "eng",
+  "language_probability": 0.7829447388648987,
+  "text": "Before we begin, welcome everyone to Day 5 of my trading series.",
+  "words": [
+    {
+      "text": "Before",
+      "start": 1.74,
+      "end": 2.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000863774970639497
+    },
+    {
+      "text": " ",
+      "start": 2.019,
+      "end": 2.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.452849917579442e-05
+    },
+    {
+      "text": "we",
+      "start": 2.059,
+      "end": 2.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.452849917579442e-05
+    },
+    {
+      "text": " ",
+      "start": 2.139,
+      "end": 2.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002903516869992018
+    },
+    {
+      "text": "begin,",
+      "start": 2.18,
+      "end": 3.119,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00031446294936661917
+    },
+    {
+      "text": " ",
+      "start": 3.119,
+      "end": 3.219,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.172238186583854e-05
+    },
+    {
+      "text": "welcome",
+      "start": 3.22,
+      "end": 3.459,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.172238186583854e-05
+    },
+    {
+      "text": " ",
+      "start": 3.459,
+      "end": 3.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0012080521555617452
+    },
+    {
+      "text": "everyone",
+      "start": 3.5,
+      "end": 3.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0012080521555617452
+    },
+    {
+      "text": " ",
+      "start": 3.839,
+      "end": 3.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006723992992192507
+    },
+    {
+      "text": "to",
+      "start": 3.879,
+      "end": 4.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006723992992192507
+    },
+    {
+      "text": " ",
+      "start": 4.019,
+      "end": 4.059,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.05490126460790634
+    },
+    {
+      "text": "Day",
+      "start": 4.059,
+      "end": 4.259,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.05490126460790634
+    },
+    {
+      "text": " ",
+      "start": 4.259,
+      "end": 4.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.12843480706214905
+    },
+    {
+      "text": "5",
+      "start": 4.9,
+      "end": 4.92,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.3603161025675945e-05
+    },
+    {
+      "text": " ",
+      "start": 4.92,
+      "end": 4.94,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00018487652414478362
+    },
+    {
+      "text": "of",
+      "start": 4.94,
+      "end": 5.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00018487652414478362
+    },
+    {
+      "text": " ",
+      "start": 5.059,
+      "end": 5.079,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.4318398573086597e-05
+    },
+    {
+      "text": "my",
+      "start": 5.079,
+      "end": 5.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.4318398573086597e-05
+    },
+    {
+      "text": " ",
+      "start": 5.159,
+      "end": 5.239,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0028556303586810827
+    },
+    {
+      "text": "trading",
+      "start": 5.239,
+      "end": 5.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0028556303586810827
+    },
+    {
+      "text": " ",
+      "start": 5.559,
+      "end": 5.599,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "series.",
+      "start": 5.599,
+      "end": 6.42,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.0826316423543695e-05
+    }
+  ],
+  "transcription_id": "FXVgskMuN8kWIHejEvNv",
+  "audio_duration_secs": 7.8706875
+}

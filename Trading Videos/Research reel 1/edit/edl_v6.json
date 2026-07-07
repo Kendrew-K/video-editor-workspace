@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_0909": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0909.MOV",
+    "IMG_0911": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0911.MOV",
+    "IMG_0914": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0914.MOV",
+    "IMG_0915": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0915.MOV",
+    "IMG_0920": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0920.MOV",
+    "IMG_0921": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0921.MOV",
+    "IMG_0922": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0922.MOV",
+    "IMG_0925": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0925.MOV",
+    "IMG_0927": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0927.MOV",
+    "IMG_0929": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0929.MOV",
+    "IMG_0932": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0932.MOV",
+    "IMG_0933": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0933.MOV",
+    "INTRO": "<REPO_ROOT>/Final Vids/Intro Video.mp4"
+  },
+  "ranges": [
+    {
+      "source": "IMG_0909",
+      "start": 1.93,
+      "end": 5.14,
+      "beat": "INTRO",
+      "quote": "Welcome everyone to day two of my series."
+    },
+    {
+      "source": "IMG_0911",
+      "start": 1.75,
+      "end": 11.58,
+      "beat": "PEAD",
+      "quote": "Did you know that prices tend to drift for up to sixty days after news? Inilah apa yang disebut sebagai PEAD."
+    },
+    {
+      "source": "IMG_0914",
+      "start": 1.61,
+      "end": 6.68,
+      "beat": "ANALYST_A",
+      "quote": "Bukan hanya itu, jika para analis istilahnya mengupgrade sentimen stok ini,"
+    },
+    {
+      "source": "IMG_0915",
+      "start": 1.11,
+      "end": 8.66,
+      "beat": "ANALYST_B",
+      "quote": "Akibatnya, harga stok ini bisa naik atau turun selama beberapa minggu. Inilah yang disebut sebagai analyst driven momentum."
+    },
+    {
+      "source": "IMG_0920",
+      "start": 1.31,
+      "end": 11.66,
+      "beat": "MERGER_A",
+      "quote": "Nah, sekarang gue mau lu bayangin…"
+    },
+    {
+      "source": "IMG_0921",
+      "start": 1.23,
+      "end": 12.02,
+      "beat": "MERGER_B",
+      "quote": "Inilah yang disebut sebagai merger arbitrage."
+    },
+    {
+      "source": "IMG_0922",
+      "start": 1.53,
+      "end": 10.72,
+      "beat": "FDA_A",
+      "quote": "Biasanya perusahaan bioteknologi di Amerika butuh persetujuan dari FDA dan PDUFA."
+    },
+    {
+      "source": "IMG_0925",
+      "start": 1.71,
+      "end": 8.06,
+      "beat": "FDA_B",
+      "quote": "Dalam jangka waktu itu, stok bisa naik dua puluh persen, empat sampai delapan minggu sebelum announcement."
+    },
+    {
+      "source": "IMG_0927",
+      "start": 1.05,
+      "end": 8.71,
+      "beat": "FDA_C_A",
+      "quote": "...tinggal beli stok ini waktu baru dipublikasikan dan jual sebelum announcement itu keluar biar kita bisa"
+    },
+    {
+      "source": "IMG_0927",
+      "start": 8.86,
+      "end": 9.94,
+      "beat": "FDA_C_B",
+      "quote": "aman."
+    },
+    {
+      "source": "IMG_0929",
+      "start": 1.69,
+      "end": 7.68,
+      "beat": "RECAP",
+      "quote": "Dalam video ini kita sudah bahas empat trading teknik yang dipakai setelah news keluar."
+    },
+    {
+      "source": "IMG_0932",
+      "start": 1.79,
+      "end": 10.06,
+      "beat": "TEASE",
+      "quote": "Di video selanjutnya, kita akan cari tahu teknik-teknik yang bisa dipakai untuk mencari tahu hasilnya sebelum news keluar."
+    },
+    {
+      "source": "IMG_0933",
+      "start": 1.39,
+      "end": 10.25,
+      "beat": "OUTRO",
+      "quote": "Once again, jika kalian tertarik dengan algorithmic trading, tinggal like, follow, dan comment. See you next time! Peace! [hand covers]"
+    },
+    {
+      "source": "INTRO",
+      "start": 76.4,
+      "end": 80.9,
+      "beat": "CAT_OUTRO",
+      "quote": "[cat pawing at glass — meme button from Intro Video]"
+    }
+  ],
+  "grade": "none",
+  "overlays": [
+    {
+      "file": "animations/slot_pvz_day2/render.mov",
+      "start_in_output": 0.4,
+      "duration": 2.8
+    },
+    {
+      "file": "animations/slot_gfx_pead/render.mov",
+      "start_in_output": 3.9,
+      "duration": 4.1
+    },
+    {
+      "file": "animations/slot_src_pead/render.mov",
+      "start_in_output": 8.1,
+      "duration": 4.9
+    },
+    {
+      "file": "animations/slot_src_analyst/render.mov",
+      "start_in_output": 13.3,
+      "duration": 12.1
+    },
+    {
+      "file": "animations/slot_gfx_merger/render.mov",
+      "start_in_output": 25.9,
+      "duration": 17.6
+    },
+    {
+      "file": "animations/slot_src_merger/render.mov",
+      "start_in_output": 43.7,
+      "duration": 3.1
+    },
+    {
+      "file": "animations/slot_src_fda/render.mov",
+      "start_in_output": 46.9,
+      "duration": 8.9
+    },
+    {
+      "file": "animations/slot_gfx_fda/render.mov",
+      "start_in_output": 56.0,
+      "duration": 14.0
+    }
+  ],
+  "subtitles": "master_v3.ass",
+  "total_duration_s": 98.7
+}

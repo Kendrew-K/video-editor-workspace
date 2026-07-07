@@ -1,0 +1,225 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.9295722246170044,
+  "text": "Dalam video ini kita sudah bahas empat trading teknik yang dipakai setelah news keluar.",
+  "words": [
+    {
+      "text": "Dalam",
+      "start": 1.74,
+      "end": 1.979,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.005303106649080291
+    },
+    {
+      "text": " ",
+      "start": 1.979,
+      "end": 2.019,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006017066189087927
+    },
+    {
+      "text": "video",
+      "start": 2.019,
+      "end": 2.299,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006017066189087927
+    },
+    {
+      "text": " ",
+      "start": 2.299,
+      "end": 2.339,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.380061626667157e-05
+    },
+    {
+      "text": "ini",
+      "start": 2.339,
+      "end": 2.679,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.380061626667157e-05
+    },
+    {
+      "text": " ",
+      "start": 2.679,
+      "end": 2.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.9106242656707764
+    },
+    {
+      "text": "kita",
+      "start": 2.72,
+      "end": 2.899,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -1.9106242656707764
+    },
+    {
+      "text": " ",
+      "start": 2.899,
+      "end": 2.959,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00037055302527733147
+    },
+    {
+      "text": "sudah",
+      "start": 2.96,
+      "end": 3.159,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00037055302527733147
+    },
+    {
+      "text": " ",
+      "start": 3.159,
+      "end": 3.199,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0004848258395213634
+    },
+    {
+      "text": "bahas",
+      "start": 3.199,
+      "end": 3.559,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002912769732574816
+    },
+    {
+      "text": " ",
+      "start": 3.559,
+      "end": 3.619,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.23158597946166992
+    },
+    {
+      "text": "empat",
+      "start": 3.619,
+      "end": 3.939,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.09279673286946491
+    },
+    {
+      "text": " ",
+      "start": 3.939,
+      "end": 4.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009607033804059029
+    },
+    {
+      "text": "trading",
+      "start": 4.099,
+      "end": 4.339,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.009607033804059029
+    },
+    {
+      "text": " ",
+      "start": 4.339,
+      "end": 4.419,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.08095092326402664
+    },
+    {
+      "text": "teknik",
+      "start": 4.42,
+      "end": 4.839,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.08095092326402664
+    },
+    {
+      "text": " ",
+      "start": 4.839,
+      "end": 4.879,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000366263062460348
+    },
+    {
+      "text": "yang",
+      "start": 4.88,
+      "end": 5.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000366263062460348
+    },
+    {
+      "text": " ",
+      "start": 5.019,
+      "end": 5.039,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00112791801802814
+    },
+    {
+      "text": "dipakai",
+      "start": 5.039,
+      "end": 6.019,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0005168391747117442
+    },
+    {
+      "text": " ",
+      "start": 6.019,
+      "end": 6.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.01223876141011715
+    },
+    {
+      "text": "setelah",
+      "start": 6.099,
+      "end": 6.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.005668798395033393
+    },
+    {
+      "text": " ",
+      "start": 6.799,
+      "end": 6.939,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006964455358684063
+    },
+    {
+      "text": "news",
+      "start": 6.94,
+      "end": 7.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006964455358684063
+    },
+    {
+      "text": " ",
+      "start": 7.139,
+      "end": 7.179,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0011826909612864256
+    },
+    {
+      "text": "keluar.",
+      "start": 7.179,
+      "end": 7.599,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.001129533019203726
+    }
+  ],
+  "transcription_id": "JuWX40Qcq7UEVn8VL2Mo",
+  "audio_duration_secs": 9.3853125
+}
