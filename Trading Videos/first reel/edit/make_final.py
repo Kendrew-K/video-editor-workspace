@@ -10,6 +10,7 @@ Effects applied:
 """
 
 from __future__ import annotations
+import os
 
 import json
 import re
@@ -19,7 +20,7 @@ from pathlib import Path
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
-ROOT      = Path("<REPO_ROOT>")
+ROOT      = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".."))
 REEL      = ROOT / "Trading Videos/first reel"
 EDIT      = REEL / "edit"
 ASSETS    = ROOT / "Assets"

@@ -1,18 +1,18 @@
 {
   "version": 1,
   "sources": {
-    "IMG_0982": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0982.MOV",
-    "IMG_0983": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0983.MOV",
-    "IMG_0984": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0984.MOV",
-    "IMG_0985": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0985.MOV",
-    "IMG_0988": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0988.MOV",
-    "IMG_0989": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0989.MOV",
-    "IMG_0991": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0991.MOV",
-    "IMG_0992": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0992.MOV",
-    "IMG_0993": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0993.MOV",
-    "IMG_0996": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0996.MOV",
-    "IMG_0997": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0997.MOV",
-    "IMG_0998": "<REPO_ROOT>/Trading Videos/Research reel 3/IMG_0998.MOV"
+    "IMG_0982": "../IMG_0982.MOV",
+    "IMG_0983": "../IMG_0983.MOV",
+    "IMG_0984": "../IMG_0984.MOV",
+    "IMG_0985": "../IMG_0985.MOV",
+    "IMG_0988": "../IMG_0988.MOV",
+    "IMG_0989": "../IMG_0989.MOV",
+    "IMG_0991": "../IMG_0991.MOV",
+    "IMG_0992": "../IMG_0992.MOV",
+    "IMG_0993": "../IMG_0993.MOV",
+    "IMG_0996": "../IMG_0996.MOV",
+    "IMG_0997": "../IMG_0997.MOV",
+    "IMG_0998": "../IMG_0998.MOV"
   },
   "ranges": [
     {"source": "IMG_0982", "start": 1.92, "end": 6.98,  "beat": "INTRO",       "quote": "Day 4 is here, and we're diving straight into machine learning and neural network."},

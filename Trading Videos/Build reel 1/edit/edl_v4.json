@@ -2,13 +2,13 @@
   "version": 4,
   "comment": "v4 hybrid meme pass on top of v3 (same cut/timeline/subs). Overlays: hook pill wiggle, STONKS on PEAD drift, IT'S FREE REAL ESTATE on SEC card, NOPE. stamp. SFX: vine boom on DAY6 land + stamp, airhorn on v1 banner, fahh on 2nd X, pops on STONKS + meme banner.",
   "sources": {
-    "IMG_1045": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1045.MOV",
-    "IMG_1047": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1047.MOV",
-    "IMG_1050": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1050.MOV",
-    "IMG_1051": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1051.MOV",
-    "IMG_1052": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1052.MOV",
-    "IMG_1053": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1053.MOV",
-    "IMG_1054": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1054.MOV"
+    "IMG_1045": "../IMG_1045.MOV",
+    "IMG_1047": "../IMG_1047.MOV",
+    "IMG_1050": "../IMG_1050.MOV",
+    "IMG_1051": "../IMG_1051.MOV",
+    "IMG_1052": "../IMG_1052.MOV",
+    "IMG_1053": "../IMG_1053.MOV",
+    "IMG_1054": "../IMG_1054.MOV"
   },
   "ranges": [
     {
@@ -207,7 +207,7 @@
   ],
   "sfx": [
     {
-      "file": "<REPO_ROOT>/meme audio/money.mp3",
+      "file": "../../../meme audio/money.mp3",
       "at": 0.78,
       "gain": 0.4,
       "trim": 1.6
@@ -218,7 +218,7 @@
       "gain": 0.25
     },
     {
-      "file": "<REPO_ROOT>/meme audio/vine_boom.mp3",
+      "file": "../../../meme audio/vine_boom.mp3",
       "at": 4.85,
       "gain": 0.45,
       "trim": 1.0
@@ -264,13 +264,13 @@
       "gain": 0.4
     },
     {
-      "file": "<REPO_ROOT>/meme audio/fahh.mp3",
+      "file": "../../../meme audio/fahh.mp3",
       "at": 60.73,
       "gain": 0.45,
       "trim": 1.0
     },
     {
-      "file": "<REPO_ROOT>/meme audio/vine_boom.mp3",
+      "file": "../../../meme audio/vine_boom.mp3",
       "at": 62.19,
       "gain": 0.55,
       "trim": 1.0
@@ -281,7 +281,7 @@
       "gain": 0.25
     },
     {
-      "file": "<REPO_ROOT>/meme audio/airhorn.mp3",
+      "file": "../../../meme audio/airhorn.mp3",
       "at": 71.91,
       "gain": 0.28,
       "trim": 1.2

@@ -2,14 +2,14 @@
   "version": 1,
   "comment": "Build Reel 2 (Day 7) — news-trading-bot build plan. Viral pass: cold-open hook (Trading is hard as shit), jump-cut silence collapse, punch alternation, bilingual ID/EN subs, 5 top-band graphics (newspaper DAY7 sign, 5-stage pipeline, dedup filter, kill switch, 5-month roadmap), post-loudnorm SFX. Gunshot button kept. No citation panels (own build plan).",
   "sources": {
-    "IMG_1065": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1065.MOV",
-    "IMG_1066": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1066.MOV",
-    "IMG_1067": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1067.MOV",
-    "IMG_1068": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1068.MOV",
-    "IMG_1070": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1070.MOV",
-    "IMG_1071": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1071.MOV",
-    "IMG_1073": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1073.MOV",
-    "IMG_1074": "<REPO_ROOT>/Trading Videos/Build Reel 2/IMG_1074.MOV"
+    "IMG_1065": "../IMG_1065.MOV",
+    "IMG_1066": "../IMG_1066.MOV",
+    "IMG_1067": "../IMG_1067.MOV",
+    "IMG_1068": "../IMG_1068.MOV",
+    "IMG_1070": "../IMG_1070.MOV",
+    "IMG_1071": "../IMG_1071.MOV",
+    "IMG_1073": "../IMG_1073.MOV",
+    "IMG_1074": "../IMG_1074.MOV"
   },
   "ranges": [
     {"source": "IMG_1065", "start": 1.06, "end": 3.26,  "punch": false, "beat": "HOOK",     "quote": "Trading is hard as shit,"},
@@ -42,22 +42,22 @@
     {"file": "animations/slot_gfx_roadmap/render.mov", "start_in_output": 58.78, "duration": 15.9}
   ],
   "sfx": [
-    {"file": "<REPO_ROOT>/meme audio/swoosh_t.mp3",   "at": 4.15,  "gain": 0.30},
+    {"file": "../../../meme audio/swoosh_t.mp3",   "at": 4.15,  "gain": 0.30},
     {"file": "sfx/whoosh.wav",  "at": 10.60, "gain": 0.25},
-    {"file": "<REPO_ROOT>/meme audio/coin_t.mp3",     "at": 11.70, "gain": 0.35},
+    {"file": "../../../meme audio/coin_t.mp3",     "at": 11.70, "gain": 0.35},
     {"file": "sfx/pop.wav",     "at": 13.86, "gain": 0.30},
-    {"file": "<REPO_ROOT>/meme audio/sparkle_t.mp3",  "at": 17.42, "gain": 0.30},
-    {"file": "<REPO_ROOT>/meme audio/swoosh_t.mp3",   "at": 20.10, "gain": 0.28},
-    {"file": "<REPO_ROOT>/meme audio/emotional_t.mp3","at": 31.02, "gain": 0.40},
+    {"file": "../../../meme audio/sparkle_t.mp3",  "at": 17.42, "gain": 0.30},
+    {"file": "../../../meme audio/swoosh_t.mp3",   "at": 20.10, "gain": 0.28},
+    {"file": "../../../meme audio/emotional_t.mp3","at": 31.02, "gain": 0.40},
     {"file": "sfx/ding.wav",    "at": 31.78, "gain": 0.32},
     {"file": "sfx/whoosh.wav",  "at": 46.50, "gain": 0.25},
-    {"file": "<REPO_ROOT>/meme audio/mgalert_t.mp3",  "at": 49.70, "gain": 0.35},
-    {"file": "<REPO_ROOT>/meme audio/vine_boom.mp3",  "at": 55.26, "gain": 0.50, "trim": 1.0},
-    {"file": "<REPO_ROOT>/meme audio/riser_t.mp3",    "at": 58.78, "gain": 0.26},
-    {"file": "<REPO_ROOT>/meme audio/coin_t.mp3",     "at": 61.24, "gain": 0.32},
+    {"file": "../../../meme audio/mgalert_t.mp3",  "at": 49.70, "gain": 0.35},
+    {"file": "../../../meme audio/vine_boom.mp3",  "at": 55.26, "gain": 0.50, "trim": 1.0},
+    {"file": "../../../meme audio/riser_t.mp3",    "at": 58.78, "gain": 0.26},
+    {"file": "../../../meme audio/coin_t.mp3",     "at": 61.24, "gain": 0.32},
     {"file": "sfx/pop.wav",     "at": 64.96, "gain": 0.30},
-    {"file": "<REPO_ROOT>/meme audio/yippee_t.mp3",   "at": 72.04, "gain": 0.40},
-    {"file": "<REPO_ROOT>/meme audio/vine_boom.mp3",  "at": 81.33, "gain": 0.42, "trim": 1.0}
+    {"file": "../../../meme audio/yippee_t.mp3",   "at": 72.04, "gain": 0.40},
+    {"file": "../../../meme audio/vine_boom.mp3",  "at": 81.33, "gain": 0.42, "trim": 1.0}
   ],
   "beeps": [
     {"at": 1.84, "dur": 0.30}

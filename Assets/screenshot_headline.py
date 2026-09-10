@@ -1,8 +1,9 @@
+import os
 import asyncio
 from playwright.async_api import async_playwright
 
 URL = "https://asiatimes.com/2026/06/rupiahs-plunge-pushes-indonesias-manufacturers-to-the-edge/"
-OUT = r"<REPO_ROOT>\Assets\article_screenshot.png"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "article_screenshot.png")
 
 async def main():
     async with async_playwright() as p:

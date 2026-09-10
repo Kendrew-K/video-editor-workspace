@@ -1,19 +1,19 @@
 {
   "version": 1,
   "sources": {
-    "IMG_0909": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0909.MOV",
-    "IMG_0911": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0911.MOV",
-    "IMG_0914": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0914.MOV",
-    "IMG_0915": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0915.MOV",
-    "IMG_0920": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0920.MOV",
-    "IMG_0921": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0921.MOV",
-    "IMG_0922": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0922.MOV",
-    "IMG_0925": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0925.MOV",
-    "IMG_0927": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0927.MOV",
-    "IMG_0929": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0929.MOV",
-    "IMG_0932": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0932.MOV",
-    "IMG_0933": "<REPO_ROOT>/Trading Videos/Research reel 1/IMG_0933.MOV",
-    "INTRO": "<REPO_ROOT>/Final Vids/Intro Video.mp4"
+    "IMG_0909": "../IMG_0909.MOV",
+    "IMG_0911": "../IMG_0911.MOV",
+    "IMG_0914": "../IMG_0914.MOV",
+    "IMG_0915": "../IMG_0915.MOV",
+    "IMG_0920": "../IMG_0920.MOV",
+    "IMG_0921": "../IMG_0921.MOV",
+    "IMG_0922": "../IMG_0922.MOV",
+    "IMG_0925": "../IMG_0925.MOV",
+    "IMG_0927": "../IMG_0927.MOV",
+    "IMG_0929": "../IMG_0929.MOV",
+    "IMG_0932": "../IMG_0932.MOV",
+    "IMG_0933": "../IMG_0933.MOV",
+    "INTRO": "../../../Final Vids/Intro Video.mp4"
   },
   "ranges": [
     {

@@ -35,9 +35,12 @@ records that animation and source screenshot must never share a frame).
 
 ## What is not here, and why
 
-- **Source footage.** The `IMG_*.mp4` clips the EDLs reference are raw personal
+- **Source footage.** The `IMG_*.MOV` clips the EDLs reference are raw personal
   video, tens of GB. The transcripts of them are committed, so the edit is
-  readable without them, but a render needs your own footage.
+  readable without them, but a render needs your own footage. EDL source paths
+  are relative to the EDL file (`"../IMG_1045.MOV"`), so dropping your own
+  clips beside the project folder is enough; `resolve_path` in video-use
+  resolves them against the EDL's directory.
 - **Rendered output.** Same reason. Regenerate it.
 - **The render engine.** Editing is driven by
   [video-use](https://github.com/browser-use/video-use) (MIT), and the motion

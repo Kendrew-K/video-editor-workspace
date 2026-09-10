@@ -16,8 +16,8 @@ W, H = 1080, 1920
 FPS = 30
 DURATION = 1.5
 FRAMES = int(FPS * DURATION)
-OUT_DIR = r"<REPO_ROOT>\Assets\_frames_tmp"
-OUT_MP4 = r"<REPO_ROOT>\Assets\static_distortion_transition.mp4"
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_frames_tmp")
+OUT_MP4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static_distortion_transition.mp4")
 
 os.makedirs(OUT_DIR, exist_ok=True)
 

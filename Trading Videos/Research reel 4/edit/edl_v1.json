@@ -1,18 +1,18 @@
 {
   "version": 1,
   "sources": {
-    "IMG_0999": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_0999.MOV",
-    "IMG_1002": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1002.MOV",
-    "IMG_1004": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1004.MOV",
-    "IMG_1009": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1009.MOV",
-    "IMG_1011": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1011.MOV",
-    "IMG_1013": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1013.MOV",
-    "IMG_1014": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1014.MOV",
-    "IMG_1016": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1016.MOV",
-    "IMG_1018": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1018.MOV",
-    "IMG_1019": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1019.MOV",
-    "IMG_1020": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1020.MOV",
-    "IMG_1026": "<REPO_ROOT>/Trading Videos/Research reel 4/IMG_1026.MOV"
+    "IMG_0999": "../IMG_0999.MOV",
+    "IMG_1002": "../IMG_1002.MOV",
+    "IMG_1004": "../IMG_1004.MOV",
+    "IMG_1009": "../IMG_1009.MOV",
+    "IMG_1011": "../IMG_1011.MOV",
+    "IMG_1013": "../IMG_1013.MOV",
+    "IMG_1014": "../IMG_1014.MOV",
+    "IMG_1016": "../IMG_1016.MOV",
+    "IMG_1018": "../IMG_1018.MOV",
+    "IMG_1019": "../IMG_1019.MOV",
+    "IMG_1020": "../IMG_1020.MOV",
+    "IMG_1026": "../IMG_1026.MOV"
   },
   "ranges": [
     {"source": "IMG_0999", "start": 1.28, "end": 15.20, "beat": "HOOK",      "quote": "In 2024 AI traders... kenapa mereka sudah mati? Let's rewind first."},

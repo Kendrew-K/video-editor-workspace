@@ -2,13 +2,13 @@
   "version": 3,
   "comment": "v3 viral pass: cold-open hook (SEC $0 line moved to front), jump-cut silence tightening (gaps >=0.4s collapsed), per-range punch-in alternation (punch: true = 1.12x), SFX mixed post-loudnorm by render_v3.py. TECH2 now ends at 'files.' — its old closing line IS the hook.",
   "sources": {
-    "IMG_1045": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1045.MOV",
-    "IMG_1047": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1047.MOV",
-    "IMG_1050": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1050.MOV",
-    "IMG_1051": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1051.MOV",
-    "IMG_1052": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1052.MOV",
-    "IMG_1053": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1053.MOV",
-    "IMG_1054": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1054.MOV"
+    "IMG_1045": "../IMG_1045.MOV",
+    "IMG_1047": "../IMG_1047.MOV",
+    "IMG_1050": "../IMG_1050.MOV",
+    "IMG_1051": "../IMG_1051.MOV",
+    "IMG_1052": "../IMG_1052.MOV",
+    "IMG_1053": "../IMG_1053.MOV",
+    "IMG_1054": "../IMG_1054.MOV"
   },
   "ranges": [
     {"source": "IMG_1051", "start": 14.14, "end": 18.10, "punch": true,  "beat": "HOOK",   "quote": "I can track and oversee multiple corporations without spending a dime."},
@@ -42,7 +42,7 @@
     {"file": "animations/slot_gfx_steps/render.mov", "start_in_output": 63.85, "duration": 10.7}
   ],
   "sfx": [
-    {"file": "<REPO_ROOT>/meme audio/money.mp3", "at": 0.78, "gain": 0.40, "trim": 1.6},
+    {"file": "../../../meme audio/money.mp3", "at": 0.78, "gain": 0.40, "trim": 1.6},
     {"file": "sfx/whoosh.wav", "at":  3.96, "gain": 0.25},
     {"file": "sfx/whoosh.wav", "at": 25.60, "gain": 0.25},
     {"file": "sfx/whoosh.wav", "at": 40.39, "gain": 0.25},

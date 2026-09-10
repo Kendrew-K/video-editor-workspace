@@ -1,13 +1,13 @@
 {
   "version": 1,
   "sources": {
-    "IMG_0882": "<REPO_ROOT>/Trading Videos/first reel/IMG_0882.MOV",
-    "IMG_0883": "<REPO_ROOT>/Trading Videos/first reel/IMG_0883.MOV",
-    "IMG_0884": "<REPO_ROOT>/Trading Videos/first reel/IMG_0884.MOV",
-    "IMG_0887": "<REPO_ROOT>/Trading Videos/first reel/IMG_0887.MOV",
-    "IMG_0894": "<REPO_ROOT>/Trading Videos/first reel/IMG_0894.MOV",
-    "IMG_0897": "<REPO_ROOT>/Trading Videos/first reel/IMG_0897.MOV",
-    "IMG_0898": "<REPO_ROOT>/Trading Videos/first reel/IMG_0898.MOV"
+    "IMG_0882": "../IMG_0882.MOV",
+    "IMG_0883": "../IMG_0883.MOV",
+    "IMG_0884": "../IMG_0884.MOV",
+    "IMG_0887": "../IMG_0887.MOV",
+    "IMG_0894": "../IMG_0894.MOV",
+    "IMG_0897": "../IMG_0897.MOV",
+    "IMG_0898": "../IMG_0898.MOV"
   },
   "ranges": [
     {"source": "IMG_0882", "start": 2.31, "end": 4.78,  "beat": "HOOK_A",      "quote": "I want to earn money."},
