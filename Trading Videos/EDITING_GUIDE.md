@@ -36,6 +36,12 @@ Each finished reel has four layers stacked on the raw footage:
    living in the **top ~40% of the frame, above the head**.
 4. **A themed intro sign** — a playful title card naming the episode ("DAY 2", etc.).
 
+Since Build reel 1 there are two more layers — see §10 (the viral pass, now the default):
+
+5. **Pacing layer** — cold-open hook, jump-cut silence collapse, wide/1.12× punch-in alternation.
+6. **Sound + meme layer** — SFX on every graphic event (mixed post-loudnorm), hybrid meme
+   elements (Impact-font STONKS / FREE REAL ESTATE / NOPE. on the fintech cards).
+
 ### The diff that defines a finished reel: `base_preview.mp4` → final
 
 | | `base_preview.mp4` | final (`preview_vN.mp4`) |
@@ -64,6 +70,9 @@ reference for the cut. **Everything else the editor adds is the four layers abov
 ## 2. The pipeline (raw clips → final)
 
 Raw clips land in `Trading Videos/<reel name>/` as `IMG_####.MOV` (one clip per beat/take).
+**The folder name is whatever the creator dropped the clips into — it does not always match
+`Research/VIDEO-PLANS.md`.** Build reel 3 lives in `Trading Videos/Actual build/`, not the
+`Build Reel 3` the plan predicted. Find the footage, don't trust the planned path.
 
 1. **Inventory + transcribe.** `ffprobe` each clip. Run `transcribe_batch.py` on the folder,
    then `pack_transcripts.py` → `takes_packed.md`. **Transcripts are cached per source — never
@@ -79,7 +88,11 @@ Raw clips land in `Trading Videos/<reel name>/` as `IMG_####.MOV` (one clip per 
 8. **Self-eval** (§6), iterate on feedback, then final render.
 
 ### Beat structure used for these reels
-`INTRO → [TECHNIQUE A → TECHNIQUE B → …] → RECAP → TEASE (next video) → OUTRO → (meme button)`
+`HOOK (cold open) → INTRO → [TECHNIQUE A → TECHNIQUE B → …] → RECAP → TEASE (next video) → OUTRO → (meme button)`
+
+**As of Build reel 1 the reel opens with a COLD-OPEN HOOK, not the "Welcome to day N" line**
+— see §10. Pull the single strongest claim from anywhere in the footage to position 0 and cut
+it from its original spot (no repeats).
 
 Reel 1 had 4 techniques: PEAD, Analyst-driven momentum, Merger arbitrage, FDA/PDUFA.
 A small meme clip (cat) was appended after the sign-off as a "button". Keep that pattern if
@@ -131,6 +144,10 @@ the creator supplies a meme tail; source it from `Final Vids/Intro Video.mp4` or
   (huge) size. It silently destroys the bilingual format. This is what broke Reel 4's first
   delivery. The EDL's `subtitles: master_vN.ass` is used automatically when you render *without*
   that flag — so always omit it. (Use `--no-subtitles` only for the `base_preview.mp4` sanity cut.)
+- **White line is ALWAYS Indonesian, yellow ALWAYS English — even when the creator speaks
+  English.** English-spoken lines get an Indonesian translation on the white top line (match his
+  colloquial register: gua/lo/nggak). Never duplicate the English text on both lines — Reel 4's
+  `make_ass.py` did that and it was flagged as wrong on Build reel 1; don't copy that pattern.
 - **Creator's name is "Kendrew" (one word).** Scribe transcribes it as "Ken Drew" — always
   override in the subtitle text.
 - **No em dashes (—) in subtitle text.** Replace a trailing em dash with a comma; replace a
@@ -290,6 +307,8 @@ compatibility even when the visual is no longer PvZ).
 | 1 / DAY 2 | **Plants vs. Zombies** wooden lawn sign | `ease_out_back` drop + damped pendulum sway |
 | 2 / DAY 3 | **Satellite / spy HUD** — converging corner brackets lock on target | Sweeping scanline, "TARGET LOCKED" stamp pop |
 | 3 / DAY 4 | **Neural network prediction** — nodes activate L→R, "DAY 4" scan-reveals as output | `alpha_composite` text reveal over live network |
+| Build 2 / DAY 7 | **Newspaper slam** — front page (masthead + BREAKING + "DAY 7" headline) spins in and unwinds into place, lands on spoken "seven" | Georgia Bold serif masthead/headline; `resize` + `rotate(expand=True)` spin, damped settle wobble |
+| Build 3 / DAY 8 | **News-wire terminal** — window with traffic-light dots, a scrolling stock ticker tape, "DAY 8" in Impact green, typed `> booting news ingestion` + blinking cursor | Consolas Bold chrome; ticker is one string tiled at `-(t*150) % seg_w`; window seats in 0.14s so the DAY 8 stamp isn't clipped |
 
 **Reel 3 implementation notes (`render_ml_intro` in `build_overlays_v1.py`):**
 - 3-layer net: 4 input nodes (gray) → 6 hidden (green) → 1 output node (large glow)
@@ -384,4 +403,253 @@ ffmpeg -y -i edit/final.mp4 -c:v libx264 -crf 23 -preset slow -pix_fmt yuv420p \
 - `transcripts/*.json`, `takes_packed.md` — cached transcripts (immutable; reuse, don't redo).
 - `project.md` — running session log; append one section per session.
 
+Also reusable from `Build reel 1/edit/` (the viral-pass reference, see §10):
+- `render_v3.py` — per-range punch-in + post-loudnorm SFX mix wrapper around render.py.
+- `make_sfx.py` — numpy SFX synthesizer (whoosh/pop/error/thud/ding).
+- `build_overlays_v4.py` — hybrid meme cards: STONKS, FREE REAL ESTATE, NOPE. stamp,
+  wiggling hook pill, blueprint DAY-6 sign.
+- `edl_v4.json` — canonical viral-pass EDL (20 jump-cut ranges, punch flags, sfx events).
+- `make_ass_v3.py` — per-range bilingual subtitle generator (jump-cut timeline).
+
+And from `Actual build/edit/` (Build reel 3 — the current best starting point, §10.7-10.8):
+- `render_v4.py` — **use this one.** `render_v3.py` plus a per-range `"vf"` field for any
+  per-range look (B&W hook, flashback, one graded beat) without forking `render.py`.
+- `build_overlays_v1.py` — the most defensive overlay builder so far. Copy its helpers wholesale:
+  `fits()` (card-overflow assert), `appearing()` (raw-time entrance gate), the alpha-0 guard in
+  `rounded()`, `meme_sticker()` (corner tag that doesn't bury the rows), `_wash()` (safe
+  full-frame flash/fade), `render_explosion` (end card), `render_day8` (terminal intro sign).
+- `edl_v1.json` — 27 jump-cut ranges, B&W hook `vf`, 13 overlays, 20 SFX, opaque end card.
+- `make_ass.py` — bilingual ASS generator with a `check_lengths()` warning pass (flags any cue
+  over 55 chars per language) and an overlapping-cue warning.
+- `gaps.py` — dumps word-level timelines + silence gaps per source. Run this first when planning
+  jump-cut ranges; it's how you find every silence ≥ 0.4s without reading raw JSON.
+
 Keep version numbers in sync across `edl_vN.json` / `build_overlays_vN.py` / `master_vN.ass`.
+
+---
+
+## 10. THE VIRAL PASS — the format upgrade from Build reel 1 (now the series default)
+
+### 10.0 Why this section exists (creator directive, 2026-07-10)
+After Build reel 1's first clean edit (cut + subs + cards, the §0-§5 recipe), the creator said
+the format was **"not the quality of a viral reel"** and approved four upgrades; after seeing
+them he asked for **more sound effects and memes** ("maybe it'll attract more attention if
+instead of professional animations, it's more funny animations"), chose **Hybrid** meme level,
+and finally directed: *"put all the things you have learnt into the guide so we can replicate
+this in the future — and next time do more research on sound effects and memes to complete
+your arsenal."* So: every reel from now on gets the §0-§5 base PLUS the four layers below, and
+**the next editor should spend time expanding the SFX/meme library before editing** (see 10.6).
+
+### 10.1 Cold-open hook (biggest lever)
+- First 1-1.5s decides retention. "Welcome to day N" is a dead opener — never open with it.
+- Find the punchiest claim in the transcript (money numbers, "free", contrarian claims),
+  move it to position 0, and **delete it from its original beat** (a repeat 50s later is
+  noticeable). Build reel 1: "I can track and oversee multiple corporations without spending
+  a dime" moved from TECH2's tail to the front; TECH2 now ends one line earlier.
+- Give the hook its own overlay slot (Build reel 1: gold "$0 — TRACK EVERY CORPORATION" pill,
+  pops on the payoff word, damped-wiggle after landing) + an SFX hit (money.mp3).
+- Then the DAY-N sign plays over the *intro* beat, not at 0s.
+
+### 10.2 Jump-cut silence tightening
+- Collapse **every intra-clip silence ≥ 0.4s** by splitting the clip into multiple EDL ranges
+  (pad ~80ms lead / ~100ms tail per range, word boundaries as always).
+- Build reel 1: 7 ranges became 20; runtime 90.2s → 84.3s. Target runtime is 30-55s for pure
+  educational shorts; long reels survive only if nothing sits still.
+- **This moves every downstream payoff word** — all overlay sync constants and every subtitle
+  offset must be recomputed per-range (make_ass SEGMENTS becomes one entry per range, cues
+  mapped to the range that contains them; cues spanning a collapsed gap must be split in two).
+
+### 10.3 Punch-in alternation
+- Alternate wide / 1.12× punch at each cut **within the same source clip** (cuts between
+  different clips already read as a reframe). Punch = `scale=-2:2150,crop=1080:1920:
+  (iw-1080)/2:(ih-1920)*2/5` — the 40%-from-top bias keeps the face centered.
+- Implemented as per-range `"punch": true` in the EDL, rendered by `edit/render_v3.py`
+  (Build reel 1) — a thin wrapper importing `render.py` internals, because `render.py` only
+  supports one global filter. Reuse that wrapper; don't fork render.py itself.
+- **Wrapper cache trap:** `render_v3.py` skips extraction when the segment file exists. If you
+  change any range times, DELETE `clips_v3*/` first or you silently render stale cuts.
+
+### 10.4 SFX layer
+- **Mix SFX AFTER loudnorm** (speech normalized to -14 LUFS first, then SFX summed on top at
+  fixed gains) — otherwise normalization ducks/squashes them. `render_v3.py` does this.
+- **THE amix TRAP:** ffmpeg's `amix` with default normalize re-scales every time a short SFX
+  stream ends → speech crept +7 dB and clipped. Always `amix=inputs=N:duration=first:
+  normalize=0` + `alimiter=limit=0.98:level=false`. Verify with `volumedetect` on an early vs
+  late window — mean volume must match within ~1.5 dB, max ≤ -1.0 dB.
+- Current arsenal:
+  | Sound | File | Use |
+  |---|---|---|
+  | cash register | `meme audio/money.mp3` (trim 1.6s) | money claims, hook |
+  | vine boom | `meme audio/vine_boom.mp3` (trim 1.0s) | sign/stamp landings |
+  | MLG airhorn | `meme audio/airhorn.mp3` (trim 1.2s, gain ≤0.3) | celebratory banner |
+  | fahh (fart horn) | `meme audio/fahh.mp3` | rejection / failure beats |
+  | whoosh/pop/error/thud/ding | `Build reel 1/edit/sfx/*.wav` | card slides, badge pops, X marks, checks (synthesized — `make_sfx.py`, numpy, copy it) |
+- Typical gains 0.25-0.55 against loudnormed speech. ~13-16 events per 85s reel; every card
+  entry, badge pop, X, stamp and check gets one. Don't exceed ~1 event / 4s average.
+- **Creator wants a BIGGER arsenal.** Before the next reel: research + download a proper meme-SFX
+  pack (bruh, metal pipe, taco bell bong, discord ping, "oh no no no", Windows XP error, boom
+  variations, riser/sub-drop transitions...) via `python -m yt_dlp -x --audio-format mp3
+  "ytsearch1:<name> sound effect" -o "meme audio/<name>.%(ext)s"`. Also collect meme IMAGE
+  assets (stonks man, doge, thug-life glasses, deep-fried emoji) into an `Assets/memes/` folder
+  for compositing into cards.
+
+### 10.5 Hybrid meme layer (the approved level)
+Creator picked **Hybrid** from {SFX-only, Hybrid, Full meme chaos}: keep the navy fintech card
+system (§5.2) for brand consistency, inject meme elements into it:
+- Impact font (`C:/Windows/Fonts/impact.ttf`) + white/orange fill + 4px black stroke = the meme
+  register. Used for: **STONKS** (tilted 8°, pops when the PEAD drift line completes),
+  **IT'S FREE REAL ESTATE** (SEC card, -2° tilt, half-overlapping the card edge like a sticker),
+  stamp text changed **SKIPPED → NOPE.**
+- Comedic motion: damped-rotation wiggle after a pop landing
+  (`6.0*exp(-2.2*(t-t0))*sin(9*(t-t0))` degrees, rotate the whole layer around the element).
+- Meme text obeys ALL existing rules: top band, no element overlap (§5.3a — first STONKS
+  placement landed on the EARNINGS BEAT label and had to move), payoff-word sync.
+- Declined this reel (ask each time, don't assume): full-screen reaction-clip insert
+  ("Whaaaat! Oh hell naw"), happy-cat meme tail. Both remain available in `meme video/` /
+  `meme audio/`.
+
+### 10.6 Misc traps learned on Build reel 1
+- **Windows console encoding:** the helpers print "→" and crash under cp1252. Always run them
+  with `PYTHONIOENCODING=utf-8`.
+- **transcribe_batch.py only reads `.env` from the cwd**, and copying a `.env` that has a UTF-8
+  BOM breaks `export`-style parsing. Write a fresh BOM-less `.env` into the reel folder.
+- **Scribe timestamp collapse:** occasionally all word timestamps after some word are stamped
+  with one identical time (Build reel 1 IMG_1045 after "techniques"). Cut edges at the collapsed
+  region are fine (use the last good boundary + pad); mid-region subtitle splits must be
+  estimated by ear.
+- Deliver flow unchanged: preview → creator green light → final render (via the same wrapper,
+  no `--preview`) → §7 shrink → `Final Vids/`.
+- **Arial/Arial Bold have no `⚠` or `★` glyph** — they render as a tofu box (□) in PIL. Draw the
+  shape instead (e.g. a filled `polygon` triangle + "!" for a warning marker); don't paste the
+  unicode char. Learned on Build reel 2 (safety-card warning rows, newspaper masthead separator).
+- **Profanity censor (beep):** `render_v3.py` supports an EDL `"beeps": [{"at": <out_s>, "dur": <s>}]`
+  field (`apply_beeps()`): it mutes `[0:a]` in each window via `volume=0:enable='between(...)'` and
+  lays a 1 kHz `sine` tone over it, runs AFTER the SFX mix, video stream-copied. Also censor the
+  caption text to match (e.g. `shit`→`sh*t`). Build reel 2 beeped "shit" in the cold-open hook.
+- **Expanding the SFX arsenal (§10.6 ask):** `python -m yt_dlp -x --audio-format mp3 --no-playlist
+  "ytsearch1:<name> sound effect" -o "meme audio/<slug>.%(ext)s"`. TRAP: downloaded clips have
+  leading silence/intro — the actual hit is NOT at t=0. Detect onset with
+  `ffmpeg -i x.mp3 -af silencedetect=noise=-40dB:d=0.05 -f null -` (first `silence_end`), then
+  pre-trim to a clean `*_t.mp3` (`ffmpeg -ss <onset> -t <keep>`) and reference THAT in the EDL, so
+  the sound lands on the beat. Also dedup: `ytsearch1` sometimes returns the same video for two
+  queries (Build reel 2: spongebob-fail == womp-womp). Keep no sound playing >2x across a reel.
+  Build reel 2 library added: swoosh, riser, discord, xp-error, metal-pipe, sparkle, wow-anime,
+  bruh, boing, record-scratch, sad-violin, womp-womp, wilhelm, emotional-damage, taco-bong,
+  mario-coin, yippee, goofy-bonk, metal-gear-alert, baby-laughing, noo.
+  Build reel 3 added the pre-trimmed `Meme Audio/scratch_t.mp3` (record_scratch had **6.26s** of
+  leading silence — the worst offender yet, always run the onset check), `taco_t.mp3`, and
+  `boom_t.mp3` (explosion, §10.8).
+- **Watch the peak on the DELIVERED file, not just the master.** `alimiter=limit=0.98` holds the
+  master at about -0.5 dBFS, but the §7 shrink's AAC re-encode overshoots and can land a loud hit
+  at 0.0 dBFS. Build reel 3's explosion needed its gain dropped 0.45 → 0.32 to keep headroom
+  after the shrink. Run `volumedetect` on the shrunk file over the loudest SFX window before
+  delivering.
+- **"Own build plan" reels don't need citation panels.** When the creator is explaining *his own*
+  bot design (not citing academic claims), skip §5.4 entirely — no paper screenshots. Build reel 2
+  (Day 7, news-trading-bot pipeline) shipped with 4 top-band graphics + intro sign and zero panels.
+
+### 10.7 Traps learned on Build reel 3 (Day 8, 2026-08-11)
+
+- **PIL fills with alpha 0 PUNCH HOLES through the card.** `ImageDraw` writes onto an RGBA layer
+  by *replacing* pixels, not compositing — so a not-yet-visible row drawn at alpha 0 erases the
+  card behind it and the background shows straight through. On playback it reads as an empty UI
+  chip, not as a bug. Two causes and both need fixing:
+  1. `ease_out_back(0)` can return a float **epsilon instead of exactly 0**, so a
+     `p = ease_out_back(prog(...)); if p <= 0: continue` guard silently fails to fire.
+     **Gate entrances on raw time** (`if t < t_in: continue`), never on the eased value.
+  2. Make the shared `rounded()` helper `return` early when `fill[3] <= 0`. Belt and braces —
+     it kills the whole class of bug at one call site.
+
+  **The same trap bites ANY PIL draw at partial alpha, not just alpha 0** — it hit the explosion
+  end card three separate ways. The rule for an overlay that must stay opaque: **only draw
+  alpha-255 things directly onto the layer.** Everything that fades goes on its own transparent
+  scratch layer and gets `Image.alpha_composite`d on:
+  - full-frame washes (a white flash, a burn-to-black) — composite a solid `Image.new`, never
+    `d.rectangle((0,0,W,H), fill=(...,a))`, which stamps alpha `a` across the *whole frame*
+  - fading strokes (an expanding shockwave ring drawn with `outline=col+(a,)`)
+  - fading fills (debris chunks, embers)
+
+  Assert it. One line at the end of the render function catches every future regression:
+  ```python
+  assert layer.split()[3].getextrema()[0] == 255, "layer must stay opaque"
+  ```
+- **The §5.3c card-overflow trap is worse than it looks.** Row tops written as "150" read like
+  absolute y but get added to `y0` (the card top), so a "150..330" layout actually lands at
+  246..426 and overflows a card ending at 404. Add a `fits(*bottoms)` helper that raises on any
+  **card-relative** bottom > `CY1 - CY0`, and call it in every stacked layout.
+- **A full-card `meme_stamp` buries the rows it's supposed to punctuate.** Reel 3's CLUTCH. and
+  SET AND FORGET sat dead-centre and hid the FINNHUB / TANPA INTERVENSI labels underneath. Use a
+  full-card stamp ONLY when covering the card *is* the joke (BLOCKED? over the geo-check boxes).
+  Otherwise use a `meme_sticker()`: same Impact + stroke + wiggle, but pinned to a bottom corner
+  at ~60px so the rows stay readable. Same §5.3a no-overlap rule, applied to memes.
+- **Every payoff needs ~0.8s of hold before the card's exit slide.** A stamp timed at
+  `total - 0.5` lands *into* the slide-out and the viewer never reads it. Check every slot:
+  `stamp_t0 + 0.35 (pop) + 0.8 (hold) <= total - dur_out`. Stretch the slot into the gap before
+  the next one rather than rushing the pop.
+- **Card alpha 238 is too transparent for a busy background.** This room's shelving reads through
+  the card and binder rings look like empty UI elements. **Use alpha 251** for these reels.
+- **Two motions at once during an intro sign muddies it.** If the sign's window slides in over
+  0.28s while the big text also stamps at t≈0.05, the text is clipped by the frame edge for
+  ~8 frames. Seat the window fast (≈0.14s) so it's home before the payoff text pops.
+- **Check the LAST second of the button clip visually, not just by transcript.** Reel 3's outro
+  clip ran 1.5s past the peace-sign wave: silence, a dead stare, then his hand filling the lens
+  on the way to stopping the recording. Scribe labelled that handling noise `[efek suara]`, which
+  looks like a real sound effect in the transcript. Cut on the last clean gesture frame (here src
+  15.35) and lay a real SFX from `Meme Audio/` on the gesture instead.
+- **This footage is framed tighter than reels 1-2** (hair top y500-680 wide; y423-468 after the
+  1.12× punch, which lifts the head ~30px). Card box was raised/shortened to
+  `CX0,CY0,CX1,CY1 = 80, 96, 1000, 404`. Re-measure hair-top per reel before reusing a card box,
+  and remember the punch raises it further.
+- **Flash-forward cold open (creator-directed, 2026-08-11):** the hook can be a *later* moment
+  shown up front in **black and white** with a "COMING UP" sign, then replayed in place. Recipe:
+  per-range `"vf": "hue=s=0,eq=contrast=1.20:brightness=-0.02,vignette=PI/4.5"` (needs the
+  `render_v4.py` per-range `vf` field), plus a black/white broadcast slug overlay — deliberately
+  NOT the navy fintech card, so it reads as "this clip is from later". Blinking red dot + drawn
+  play triangle + "LATER IN THIS VIDEO" sub-label. §10.1's delete-it-from-its-original-spot rule
+  still applies.
+- **`render_v4.py` (this reel) = `render_v3.py` + per-range `"vf"`**, a raw ffmpeg filter string
+  appended after the scale/punch stage. Use it for any per-range look (B&W hook, a flashback, a
+  single graded beat) without forking `render.py`.
+
+### 10.8 Explosion end card (creator-directed, 2026-08-12)
+
+Kendrew's sign-off has him reach past the camera to stop the recording, so his hand sweeps over
+the lens. Rather than cut before it, **let the hand cover the frame and detonate on it** —
+`slot_explosion` in Build reel 3's `build_overlays_v1.py`.
+
+- **No new machinery needed.** Extend the BUTTON range far enough to cover the hand-over-lens
+  footage, then lay a **fully opaque** overlay on top. The footage underneath is hidden, so it
+  doesn't matter that it's a blurry smear. This is how you append *any* end card without adding
+  a synthetic range to the EDL.
+- Find the cover point from luma stats, not by eye: `mean_luma` stays mid but **`stddev`
+  collapses** (Reel 3 IMG_1121: 59.7 at src 15.35 → 23.1 at 15.60 → 8.7 at 16.20) as detail
+  disappears behind the hand.
+- Timing that worked: hand-cover visible +0.30s, then a 1.00s blast. Beat map (slot-relative):
+  white flash 0-0.08, fireball expands 0.02-0.42 (`ease_out_cubic` to r≈1250, covers the 1102px
+  corner radius), shockwave ring 0.05-0.55, debris 0.08-0.86, cool-to-soot from 0.38, burn down
+  to near-black 0.60-1.00 with embers surviving. Last frame is near-black — a clean end screen.
+- Draw the fireball as a **jittered polygon** (per-angle radius × 0.80-1.14 from a seeded
+  `random.Random`), not an ellipse. A perfect circle reads as a graphic, not a blast.
+- SFX: `Meme Audio/boom_t.mp3` (from `ytsearch1:explosion sound effect`, onset at 0.86s, trimmed
+  to 1.6s with a 0.2s out-fade), **gain 0.32** on the impact frame — 0.45 survived the master's
+  limiter at -0.5 dBFS but the §7 shrink's AAC pushed it to 0.0. See the §10.6 note on checking
+  peaks on the delivered file.
+- Obeys the opacity rule in §10.7 — every fading element on its own scratch layer, with the
+  `getextrema()[0] == 255` assert at the end.
+
+**TIMELINE DRIFT — target any end card off the MEASURED output, never the nominal offsets.**
+Each extracted segment is rounded up to a whole frame, so the real concat runs ahead of the
+summed EDL range durations by roughly 13ms per segment. Across Reel 3's 27 ranges that is
+**+0.35s by the end** (nominal 89.90s, actual 90.29s). Mid-reel it is harmless — a 0.1-0.2s
+offset on a 1.5s subtitle cue or a card reveal reads fine, which is why reels 1-2 shipped on the
+nominal math without anyone noticing. At the very end it is fatal: the first pass fired the blast
+0.35s early and then played 0.4s of footage *after* it, so he reappeared past the explosion.
+
+Fix, and the rule for any future end card:
+1. Render once, then `ffprobe` the real duration of `base_v4.mp4`.
+2. Find the true cue point by scanning the rendered base, not the EDL (here: luma stddev per
+   frame, 59.6 → 17.3 across out 88.90-89.20).
+3. Set `start_in_output` from that measurement and make `duration` reach **past** the measured
+   end, so no footage can survive the card. An overlay window running past the output is
+   harmless; `enable='between(t,...)'` just stops.
+4. Shift any hard-synced tail SFX by the same amount.

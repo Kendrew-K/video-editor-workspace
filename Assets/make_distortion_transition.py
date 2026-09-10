@@ -1,3 +1,4 @@
+import sys
 """
 Static distortion transition — TV glitch / NO SIGNAL aesthetic.
 Output: 1080x1920 @ 30fps, ~1.5s, H.264, saved to Assets/static_distortion_transition.mp4
@@ -6,6 +7,10 @@ Output: 1080x1920 @ 30fps, ~1.5s, H.264, saved to Assets/static_distortion_trans
 import os, subprocess, shutil, random
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
+
+# Resolve fonts through the repo-root helper so these render off Windows too.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")))
+from fonts import font_path
 
 W, H = 1080, 1920
 FPS = 30
@@ -68,8 +73,8 @@ def add_no_signal(arr, alpha):
     img = Image.fromarray(arr)
     draw = ImageDraw.Draw(img)
     try:
-        font = ImageFont.truetype("C:/Windows/Fonts/arialbd.ttf", 90)
-        small = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", 36)
+        font = ImageFont.truetype(font_path("arialbd"), 90)
+        small = ImageFont.truetype(font_path("arial"), 36)
     except Exception:
         font = ImageFont.load_default()
         small = font

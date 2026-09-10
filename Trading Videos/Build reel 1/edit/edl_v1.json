@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "sources": {
+    "IMG_1045": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1045.MOV",
+    "IMG_1047": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1047.MOV",
+    "IMG_1050": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1050.MOV",
+    "IMG_1051": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1051.MOV",
+    "IMG_1052": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1052.MOV",
+    "IMG_1053": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1053.MOV",
+    "IMG_1054": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1054.MOV"
+  },
+  "ranges": [
+    {"source": "IMG_1045", "start": 1.20, "end": 10.07, "beat": "INTRO",    "quote": "Welcome to day six... techniques I will use for my own trading bot."},
+    {"source": "IMG_1047", "start": 1.34, "end": 16.05, "beat": "DECISION", "quote": "Setelah research... unwise to compete with them, so I will avoid them entirely."},
+    {"source": "IMG_1050", "start": 1.58, "end": 17.77, "beat": "TECH1",    "quote": "Technique one, PEAD... very easy to back test."},
+    {"source": "IMG_1051", "start": 0.70, "end": 18.25, "beat": "TECH2",    "quote": "Technique two is SECs... without spending a dime."},
+    {"source": "IMG_1052", "start": 0.96, "end": 12.31, "beat": "REJECT",   "quote": "Teknik-teknik yang lain nggak cocok untuk solo builder... terrible idea."},
+    {"source": "IMG_1053", "start": 0.88, "end": 11.91, "beat": "STEPS",    "quote": "Step two turn techniques into code, step three backtest... KTrade bot v1 done."},
+    {"source": "IMG_1054", "start": 0.80, "end": 11.12, "beat": "OUTRO",    "quote": "If you're interested... like and follow. See you next time. Peace."}
+  ],
+  "grade": "none",
+  "overlays": [
+    {"file": "animations/slot_pvz_day6/render.mov",  "start_in_output":  0.00, "duration":  3.0},
+    {"file": "animations/slot_gfx_tech1/render.mov", "start_in_output": 24.70, "duration":  9.0},
+    {"file": "animations/slot_gfx_tech2/render.mov", "start_in_output": 40.60, "duration": 16.5},
+    {"file": "animations/slot_gfx_reject/render.mov","start_in_output": 58.30, "duration": 10.2},
+    {"file": "animations/slot_gfx_steps/render.mov", "start_in_output": 68.75, "duration": 10.9}
+  ],
+  "subtitles": "master_v1.ass",
+  "total_duration_s": 90.02
+}

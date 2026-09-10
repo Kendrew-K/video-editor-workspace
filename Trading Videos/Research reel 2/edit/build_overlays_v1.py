@@ -19,12 +19,16 @@ PNG frame sequences -> each slot's frames/; encode to ProRes 4444 in the shell
 import os, sys, math
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
+# Resolve fonts through the repo-root helper so these render off Windows too.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")))
+from fonts import font_path
+
 W, H, FPS = 1080, 1920, 30
 HERE = os.path.dirname(os.path.abspath(__file__))
 ANIM = os.path.join(HERE, "animations")
 SRC = os.path.join(HERE, "sources")
-ARIALBD = "C:/Windows/Fonts/arialbd.ttf"
-ARIAL = "C:/Windows/Fonts/arial.ttf"
+ARIALBD = font_path("arialbd")
+ARIAL = font_path("arial")
 
 GREEN = (22, 199, 132)
 GREEN_D = (10, 150, 98)

@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BL,Arial,34,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3,1,2,36,36,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.08,0:00:02.10,BL,,0,0,0,,{\c&HFFFFFF&}Trading itu susah banget,\N{\c&H00FFFF&}Trading is hard as sh*t,
+
+Dialogue: 0,0:00:02.28,0:00:04.12,BL,,0,0,0,,{\c&HFFFFFF&}jadi ini bakal jadi perjalanan panjang.\N{\c&H00FFFF&}so this will be a long journey.
+
+Dialogue: 0,0:00:04.30,0:00:05.82,BL,,0,0,0,,{\c&HFFFFFF&}Selamat datang di day tujuh,\N{\c&H00FFFF&}Welcome guys to day seven,
+
+Dialogue: 0,0:00:05.88,0:00:08.60,BL,,0,0,0,,{\c&HFFFFFF&}dan gua punya banyak info buat kalian.\N{\c&H00FFFF&}and boy, do I have info for you all.
+
+Dialogue: 0,0:00:08.78,0:00:09.98,BL,,0,0,0,,{\c&HFFFFFF&}Implementasi bot ini\N{\c&H00FFFF&}The implementation of this bot
+
+Dialogue: 0,0:00:10.06,0:00:11.30,BL,,0,0,0,,{\c&HFFFFFF&}akan datang dalam lima tahap:\N{\c&H00FFFF&}will come in five stages:
+
+Dialogue: 0,0:00:11.70,0:00:13.48,BL,,0,0,0,,{\c&HFFFFFF&}baca berita, filter duplikat,\N{\c&H00FFFF&}read news, filter duplicates,
+
+Dialogue: 0,0:00:13.86,0:00:14.78,BL,,0,0,0,,{\c&HFFFFFF&}cari stok yang kena,\N{\c&H00FFFF&}find the affected stock,
+
+Dialogue: 0,0:00:14.96,0:00:16.48,BL,,0,0,0,,{\c&HFFFFFF&}buat keputusan buy atau sell,\N{\c&H00FFFF&}make a buy or sell decision,
+
+Dialogue: 0,0:00:16.50,0:00:19.92,BL,,0,0,0,,{\c&HFFFFFF&}dan terakhir cek kalau trade-nya aman.\N{\c&H00FFFF&}and finally check if the trade is safe.
+
+Dialogue: 0,0:00:20.10,0:00:21.30,BL,,0,0,0,,{\c&HFFFFFF&}Duplikat itu bahaya.\N{\c&H00FFFF&}Duplicates are dangerous.
+
+Dialogue: 0,0:00:21.48,0:00:21.74,BL,,0,0,0,,{\c&HFFFFFF&}Kenapa?\N{\c&H00FFFF&}Why?
+
+Dialogue: 0,0:00:21.92,0:00:23.62,BL,,0,0,0,,{\c&HFFFFFF&}Berita di-post ulang berkali-kali.\N{\c&H00FFFF&}News gets republished over and over.
+
+Dialogue: 0,0:00:23.80,0:00:25.62,BL,,0,0,0,,{\c&HFFFFFF&}Kalau bot kita ngira beritanya baru,\N{\c&H00FFFF&}If our bot thinks the news is new,
+
+Dialogue: 0,0:00:26.00,0:00:28.42,BL,,0,0,0,,{\c&HFFFFFF&}dia bakal trade terus pakai info itu.\N{\c&H00FFFF&}it keeps trading on that same info.
+
+Dialogue: 0,0:00:28.48,0:00:30.22,BL,,0,0,0,,{\c&HFFFFFF&}Dan kalau semua orang udah tahu,\N{\c&H00FFFF&}And once everyone already knows,
+
+Dialogue: 0,0:00:30.28,0:00:31.72,BL,,0,0,0,,{\c&HFFFFFF&}itu bukan edge lagi.\N{\c&H00FFFF&}it's no longer an edge.
+
+Dialogue: 0,0:00:31.78,0:00:34.28,BL,,0,0,0,,{\c&HFFFFFF&}Jadi kita fokus ke berita baru aja.\N{\c&H00FFFF&}So we'll focus only on fresh news.
+
+Dialogue: 0,0:00:34.46,0:00:35.70,BL,,0,0,0,,{\c&HFFFFFF&}Sebelum implementasi algoritmanya,\N{\c&H00FFFF&}Before implementing the algorithm,
+
+Dialogue: 0,0:00:35.88,0:00:38.92,BL,,0,0,0,,{\c&HFFFFFF&}kita harus bikin aturan dasar dulu buat botnya.\N{\c&H00FFFF&}we first set some basic rules for the bot.
+
+Dialogue: 0,0:00:38.96,0:00:39.38,BL,,0,0,0,,{\c&HFFFFFF&}Misalnya,\N{\c&H00FFFF&}For example,
+
+Dialogue: 0,0:00:39.56,0:00:42.22,BL,,0,0,0,,{\c&HFFFFFF&}kalau ada merger di perusahaan, kita buy.\N{\c&H00FFFF&}if there's a merger at a company, we buy.
+
+Dialogue: 0,0:00:42.40,0:00:45.58,BL,,0,0,0,,{\c&HFFFFFF&}Jadi tiap trade bisa dijelasin pakai logika.\N{\c&H00FFFF&}So every trade can be explained with logic.
+
+Dialogue: 0,0:00:45.76,0:00:47.90,BL,,0,0,0,,{\c&HFFFFFF&}Dan yang terakhir, cek keamanan.\N{\c&H00FFFF&}And last, the safety check.
+
+Dialogue: 0,0:00:47.94,0:00:51.86,BL,,0,0,0,,{\c&HFFFFFF&}Misalnya posisi kita di suatu saham kegedean,\N{\c&H00FFFF&}Like if our position in a stock is too big,
+
+Dialogue: 0,0:00:51.90,0:00:54.50,BL,,0,0,0,,{\c&HFFFFFF&}atau daily loss limit kita udah kena,\N{\c&H00FFFF&}or our daily loss limit is already hit,
+
+Dialogue: 0,0:00:54.56,0:00:55.64,BL,,0,0,0,,{\c&HFFFFFF&}maka akan ada kill switch\N{\c&H00FFFF&}then a kill switch kicks in
+
+Dialogue: 0,0:00:55.66,0:00:57.98,BL,,0,0,0,,{\c&HFFFFFF&}yang matiin program itu buat hari itu.\N{\c&H00FFFF&}that shuts the program down for the day.
+
+Dialogue: 0,0:00:58.16,0:00:58.46,BL,,0,0,0,,{\c&HFFFFFF&}Jadi,\N{\c&H00FFFF&}So,
+
+Dialogue: 0,0:00:58.94,0:01:01.18,BL,,0,0,0,,{\c&HFFFFFF&}bulan pertama kita kumpulin berita.\N{\c&H00FFFF&}month one we're gonna collect news.
+
+Dialogue: 0,0:01:01.24,0:01:03.36,BL,,0,0,0,,{\c&HFFFFFF&}Bulan kedua kita implement semua aturannya\N{\c&H00FFFF&}Month two we implement all the rules
+
+Dialogue: 0,0:01:03.40,0:01:04.92,BL,,0,0,0,,{\c&HFFFFFF&}yang udah kita bahas tadi.\N{\c&H00FFFF&}that we discussed earlier.
+
+Dialogue: 0,0:01:04.96,0:01:06.96,BL,,0,0,0,,{\c&HFFFFFF&}Bulan tiga dan empat kita mulai\N{\c&H00FFFF&}Months three and four we start
+
+Dialogue: 0,0:01:07.14,0:01:09.60,BL,,0,0,0,,{\c&HFFFFFF&}backtesting sama paper trading.\N{\c&H00FFFF&}backtesting and paper trading.
+
+Dialogue: 0,0:01:09.62,0:01:11.70,BL,,0,0,0,,{\c&HFFFFFF&}Dan kalau nggak ada perubahan lain,\N{\c&H00FFFF&}And if nothing else changes,
+
+Dialogue: 0,0:01:12.04,0:01:14.74,BL,,0,0,0,,{\c&HFFFFFF&}bulan kelima kita mulai live trading.\N{\c&H00FFFF&}month five we start live trading.
+
+Dialogue: 0,0:01:14.92,0:01:16.62,BL,,0,0,0,,{\c&HFFFFFF&}Jadi itu seluruh pipeline-nya.\N{\c&H00FFFF&}So that's the entire pipeline.
+
+Dialogue: 0,0:01:16.80,0:01:17.82,BL,,0,0,0,,{\c&HFFFFFF&}Follow kalau lo tertarik\N{\c&H00FFFF&}Follow if you're interested
+
+Dialogue: 0,0:01:17.84,0:01:19.48,BL,,0,0,0,,{\c&HFFFFFF&}buat tahu gimana gua bikin bot ini.\N{\c&H00FFFF&}in how I built this bot.
+
+Dialogue: 0,0:01:19.66,0:01:21.04,BL,,0,0,0,,{\c&HFFFFFF&}Sampai jumpa di video berikutnya.\N{\c&H00FFFF&}See you in the next video.

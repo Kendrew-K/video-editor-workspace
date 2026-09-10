@@ -1,0 +1,297 @@
+{
+  "version": 4,
+  "comment": "v4 hybrid meme pass on top of v3 (same cut/timeline/subs). Overlays: hook pill wiggle, STONKS on PEAD drift, IT'S FREE REAL ESTATE on SEC card, NOPE. stamp. SFX: vine boom on DAY6 land + stamp, airhorn on v1 banner, fahh on 2nd X, pops on STONKS + meme banner.",
+  "sources": {
+    "IMG_1045": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1045.MOV",
+    "IMG_1047": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1047.MOV",
+    "IMG_1050": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1050.MOV",
+    "IMG_1051": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1051.MOV",
+    "IMG_1052": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1052.MOV",
+    "IMG_1053": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1053.MOV",
+    "IMG_1054": "<REPO_ROOT>/Trading Videos/Build reel 1/IMG_1054.MOV"
+  },
+  "ranges": [
+    {
+      "source": "IMG_1051",
+      "start": 14.14,
+      "end": 18.1,
+      "punch": true,
+      "beat": "HOOK",
+      "quote": "I can track and oversee multiple corporations without spending a dime."
+    },
+    {
+      "source": "IMG_1045",
+      "start": 1.22,
+      "end": 3.7,
+      "punch": false,
+      "beat": "INTRO",
+      "quote": "Welcome to day six of my trading series,"
+    },
+    {
+      "source": "IMG_1045",
+      "start": 3.94,
+      "end": 10.07,
+      "punch": true,
+      "beat": "INTRO",
+      "quote": "and today we are going to talk about the techniques..."
+    },
+    {
+      "source": "IMG_1047",
+      "start": 1.36,
+      "end": 6.84,
+      "punch": false,
+      "beat": "DECISION",
+      "quote": "Setelah research... dua teknik yang gua bahas dalam video sebelumnya."
+    },
+    {
+      "source": "IMG_1047",
+      "start": 7.18,
+      "end": 7.76,
+      "punch": true,
+      "beat": "DECISION",
+      "quote": "Kenapa?"
+    },
+    {
+      "source": "IMG_1047",
+      "start": 8.26,
+      "end": 11.24,
+      "punch": false,
+      "beat": "DECISION",
+      "quote": "Dengan teknologi... sekarang ini,"
+    },
+    {
+      "source": "IMG_1047",
+      "start": 11.5,
+      "end": 13.44,
+      "punch": true,
+      "beat": "DECISION",
+      "quote": "it is unwise to compete with them,"
+    },
+    {
+      "source": "IMG_1047",
+      "start": 13.84,
+      "end": 15.9,
+      "punch": false,
+      "beat": "DECISION",
+      "quote": "so I will avoid them entirely."
+    },
+    {
+      "source": "IMG_1050",
+      "start": 1.6,
+      "end": 2.68,
+      "punch": false,
+      "beat": "TECH1",
+      "quote": "Technique one,"
+    },
+    {
+      "source": "IMG_1050",
+      "start": 3.06,
+      "end": 5.48,
+      "punch": true,
+      "beat": "TECH1",
+      "quote": "PEAD drifting price."
+    },
+    {
+      "source": "IMG_1050",
+      "start": 5.98,
+      "end": 6.46,
+      "punch": false,
+      "beat": "TECH1",
+      "quote": "Why?"
+    },
+    {
+      "source": "IMG_1050",
+      "start": 6.82,
+      "end": 17.62,
+      "punch": true,
+      "beat": "TECH1",
+      "quote": "Because it only relies on a stock beating their own expectations..."
+    },
+    {
+      "source": "IMG_1051",
+      "start": 0.62,
+      "end": 2.78,
+      "punch": false,
+      "beat": "TECH2",
+      "quote": "Technique two is SECs."
+    },
+    {
+      "source": "IMG_1051",
+      "start": 3.06,
+      "end": 13.1,
+      "punch": true,
+      "beat": "TECH2",
+      "quote": "Why? Because all corporations... SEC's own files."
+    },
+    {
+      "source": "IMG_1052",
+      "start": 0.98,
+      "end": 12.16,
+      "punch": false,
+      "beat": "REJECT",
+      "quote": "Teknik-teknik yang lain... terrible idea."
+    },
+    {
+      "source": "IMG_1053",
+      "start": 0.9,
+      "end": 11.76,
+      "punch": false,
+      "beat": "STEPS",
+      "quote": "Step two code, step three backtest... KTrade bot v1 done."
+    },
+    {
+      "source": "IMG_1054",
+      "start": 0.82,
+      "end": 1.2,
+      "punch": false,
+      "beat": "OUTRO",
+      "quote": "Now,"
+    },
+    {
+      "source": "IMG_1054",
+      "start": 1.58,
+      "end": 5.56,
+      "punch": true,
+      "beat": "OUTRO",
+      "quote": "if you're interested in watching me code the algorithm for this bot,"
+    },
+    {
+      "source": "IMG_1054",
+      "start": 5.88,
+      "end": 7.68,
+      "punch": false,
+      "beat": "OUTRO",
+      "quote": "just like and follow this account."
+    },
+    {
+      "source": "IMG_1054",
+      "start": 8.02,
+      "end": 11.12,
+      "punch": true,
+      "beat": "OUTRO",
+      "quote": "See you next time. Peace."
+    }
+  ],
+  "grade": "none",
+  "overlays": [
+    {
+      "file": "animations/slot_hook_pill/render.mov",
+      "start_in_output": 0.5,
+      "duration": 3.4
+    },
+    {
+      "file": "animations/slot_pvz_day6/render.mov",
+      "start_in_output": 3.9,
+      "duration": 3.0
+    },
+    {
+      "file": "animations/slot_gfx_tech1/render.mov",
+      "start_in_output": 25.6,
+      "duration": 13.0
+    },
+    {
+      "file": "animations/slot_gfx_tech2/render.mov",
+      "start_in_output": 40.39,
+      "duration": 12.2
+    },
+    {
+      "file": "animations/slot_gfx_reject/render.mov",
+      "start_in_output": 52.8,
+      "duration": 10.8
+    },
+    {
+      "file": "animations/slot_gfx_steps/render.mov",
+      "start_in_output": 63.85,
+      "duration": 10.7
+    }
+  ],
+  "sfx": [
+    {
+      "file": "<REPO_ROOT>/meme audio/money.mp3",
+      "at": 0.78,
+      "gain": 0.4,
+      "trim": 1.6
+    },
+    {
+      "file": "sfx/whoosh.wav",
+      "at": 3.96,
+      "gain": 0.25
+    },
+    {
+      "file": "<REPO_ROOT>/meme audio/vine_boom.mp3",
+      "at": 4.85,
+      "gain": 0.45,
+      "trim": 1.0
+    },
+    {
+      "file": "sfx/whoosh.wav",
+      "at": 25.6,
+      "gain": 0.25
+    },
+    {
+      "file": "sfx/pop.wav",
+      "at": 37.75,
+      "gain": 0.35
+    },
+    {
+      "file": "sfx/whoosh.wav",
+      "at": 40.39,
+      "gain": 0.25
+    },
+    {
+      "file": "sfx/pop.wav",
+      "at": 48.31,
+      "gain": 0.35
+    },
+    {
+      "file": "sfx/pop.wav",
+      "at": 48.77,
+      "gain": 0.35
+    },
+    {
+      "file": "sfx/pop.wav",
+      "at": 49.89,
+      "gain": 0.35
+    },
+    {
+      "file": "sfx/whoosh.wav",
+      "at": 52.8,
+      "gain": 0.25
+    },
+    {
+      "file": "sfx/error.wav",
+      "at": 58.49,
+      "gain": 0.4
+    },
+    {
+      "file": "<REPO_ROOT>/meme audio/fahh.mp3",
+      "at": 60.73,
+      "gain": 0.45,
+      "trim": 1.0
+    },
+    {
+      "file": "<REPO_ROOT>/meme audio/vine_boom.mp3",
+      "at": 62.19,
+      "gain": 0.55,
+      "trim": 1.0
+    },
+    {
+      "file": "sfx/whoosh.wav",
+      "at": 63.85,
+      "gain": 0.25
+    },
+    {
+      "file": "<REPO_ROOT>/meme audio/airhorn.mp3",
+      "at": 71.91,
+      "gain": 0.28,
+      "trim": 1.2
+    },
+    {
+      "file": "sfx/ding.wav",
+      "at": 74.13,
+      "gain": 0.35
+    }
+  ],
+  "subtitles": "master_v3.ass",
+  "total_duration_s": 83.89
+}

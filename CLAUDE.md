@@ -1,4 +1,4 @@
-Can you research about privacy laws in Indonesia? Like what I need for my e-commerce website or my-- or, well, my website that takes in user data needs to have in order to be compliant and not get shut down. Thank you.# Video Editor Workspace
+# Video Editor Workspace
 
 Short-form video editor for YouTube Shorts, Instagram Reels, and TikTok.
 Powered by `video-use` (transcript-driven editing) + HyperFrames (motion graphics).

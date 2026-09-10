@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "_note": "Build reel 3 (Day 8) — news ingestion. Viral pass (guide §10): cold-open B&W flash-forward hook, 27 jump-cut ranges, wide/1.12x punch alternation, 12 overlay slots, 18 SFX events. Own-build-plan reel -> no citation panels (§10.6).",
+  "sources": {
+    "IMG_1106": "../IMG_1106.MOV",
+    "IMG_1108": "../IMG_1108.MOV",
+    "IMG_1110": "../IMG_1110.MOV",
+    "IMG_1111": "../IMG_1111.MOV",
+    "IMG_1116": "../IMG_1116.MOV",
+    "IMG_1120": "../IMG_1120.MOV",
+    "IMG_1121": "../IMG_1121.MOV"
+  },
+  "ranges": [
+    {
+      "source": "IMG_1110",
+      "start": 8.2,
+      "end": 10.85,
+      "beat": "HOOK",
+      "offset": 0.0,
+      "vf": "hue=s=0,eq=contrast=1.20:brightness=-0.02,vignette=PI/4.5",
+      "quote": "Guys, I don't know if this is possible"
+    },
+    {
+      "source": "IMG_1106",
+      "start": 2.0,
+      "end": 6.1,
+      "beat": "INTRO",
+      "offset": 2.65,
+      "quote": "Day 8 telah hadir dan gue akan share my plan on getting news."
+    },
+    {
+      "source": "IMG_1106",
+      "start": 6.46,
+      "end": 8.92,
+      "beat": "SOURCES",
+      "offset": 6.75,
+      "punch": true,
+      "quote": "Since Bloomberg now costs way too much,"
+    },
+    {
+      "source": "IMG_1106",
+      "start": 9.16,
+      "end": 13.34,
+      "beat": "SOURCES",
+      "offset": 9.21,
+      "quote": "I plan to use Alpaca News API dan juga SEC EDGAR API"
+    },
+    {
+      "source": "IMG_1106",
+      "start": 13.54,
+      "end": 16.04,
+      "beat": "SOURCES",
+      "offset": 13.39,
+      "punch": true,
+      "quote": "untuk semua financial news untuk bot gua ini"
+    },
+    {
+      "source": "IMG_1108",
+      "start": 2.2,
+      "end": 3.26,
+      "beat": "WHY",
+      "offset": 15.89,
+      "quote": "kenapa dua ini?"
+    },
+    {
+      "source": "IMG_1108",
+      "start": 3.64,
+      "end": 10.08,
+      "beat": "WHY",
+      "offset": 16.95,
+      "punch": true,
+      "quote": "Karena Alpaca mempunyai broker API yang sudah terintegrasi secara otomatis di aplikasi mereka."
+    },
+    {
+      "source": "IMG_1108",
+      "start": 10.44,
+      "end": 11.04,
+      "beat": "WHY",
+      "offset": 23.39,
+      "quote": "Dan juga,"
+    },
+    {
+      "source": "IMG_1108",
+      "start": 11.24,
+      "end": 18.68,
+      "beat": "WHY",
+      "offset": 23.99,
+      "punch": true,
+      "quote": "di video sebelumnya gua kan sudah bilang bahwa gua akan menggunakan SEC filing sebagai salah satu teknik yang akan dipakai oleh bot gua ini"
+    },
+    {
+      "source": "IMG_1110",
+      "start": 2.24,
+      "end": 3.24,
+      "beat": "PROBLEM",
+      "offset": 31.43,
+      "punch": true,
+      "quote": "sebelum gua lanjut,"
+    },
+    {
+      "source": "IMG_1110",
+      "start": 3.46,
+      "end": 7.26,
+      "beat": "PROBLEM",
+      "offset": 32.43,
+      "quote": "gue baru sadar bahwa apakah API tidak bisa diakses di Indonesia?"
+    },
+    {
+      "source": "IMG_1111",
+      "start": 0.88,
+      "end": 2.26,
+      "beat": "SOLUTION",
+      "offset": 36.23,
+      "quote": "Nah, setelah research,"
+    },
+    {
+      "source": "IMG_1111",
+      "start": 2.42,
+      "end": 4.54,
+      "beat": "SOLUTION",
+      "offset": 37.61,
+      "punch": true,
+      "quote": "gue menemukan alternatif untuk Alpaca,"
+    },
+    {
+      "source": "IMG_1111",
+      "start": 4.88,
+      "end": 9.78,
+      "beat": "SOLUTION",
+      "offset": 39.73,
+      "quote": "yaitu Finhub API. Ya meskipun Finhub hanya sebagai news provider,"
+    },
+    {
+      "source": "IMG_1111",
+      "start": 9.94,
+      "end": 11.76,
+      "beat": "SOLUTION",
+      "offset": 44.63,
+      "punch": true,
+      "quote": "tapi untuk sementara cukuplah ya"
+    },
+    {
+      "source": "IMG_1116",
+      "start": 1.0,
+      "end": 4.24,
+      "beat": "WEBHOOK",
+      "offset": 46.45,
+      "quote": "Jadi dengan dua API ini, gua akan set up webhook,"
+    },
+    {
+      "source": "IMG_1116",
+      "start": 4.54,
+      "end": 9.64,
+      "beat": "WEBHOOK",
+      "offset": 49.69,
+      "punch": true,
+      "quote": "yaitu sebuah sistem agar semua berita baru bisa langsung kekirim ke bot gua ini."
+    },
+    {
+      "source": "IMG_1116",
+      "start": 10.4,
+      "end": 15.98,
+      "beat": "WEBHOOK",
+      "offset": 54.79,
+      "quote": "Demikian, bot ini bisa lari dengan informasi terbaru setiap harinya without any intervention"
+    },
+    {
+      "source": "IMG_1120",
+      "start": 1.82,
+      "end": 3.12,
+      "beat": "STORE",
+      "offset": 60.37,
+      "quote": "dari dua news source ini,"
+    },
+    {
+      "source": "IMG_1120",
+      "start": 3.36,
+      "end": 6.7,
+      "beat": "STORE",
+      "offset": 61.67,
+      "punch": true,
+      "quote": "gue akan normalize, yaitu ubah semua data ke format yang sama."
+    },
+    {
+      "source": "IMG_1120",
+      "start": 6.98,
+      "end": 9.28,
+      "beat": "STORE",
+      "offset": 65.01,
+      "quote": "And I will store all of this data inside a database,"
+    },
+    {
+      "source": "IMG_1120",
+      "start": 9.48,
+      "end": 17.34,
+      "beat": "STORE",
+      "offset": 67.31,
+      "punch": true,
+      "quote": "which in this case will be SQLite. Simple setup for local projects. Nah, data inilah yang akan gua pakai untuk backtesting later on"
+    },
+    {
+      "source": "IMG_1121",
+      "start": 0.76,
+      "end": 6.36,
+      "beat": "OUTRO",
+      "offset": 75.17,
+      "quote": "And that pretty much wraps up today's episode. Even though there were blockades that could have ended this project,"
+    },
+    {
+      "source": "IMG_1121",
+      "start": 6.62,
+      "end": 11.1,
+      "beat": "OUTRO",
+      "offset": 80.77,
+      "punch": true,
+      "quote": "in the end it went well. Jika kalian masih tertarik dengan perjalanan gua ini,"
+    },
+    {
+      "source": "IMG_1121",
+      "start": 11.26,
+      "end": 12.74,
+      "beat": "OUTRO",
+      "offset": 85.25,
+      "quote": "tinggal like dan follow aja ya."
+    },
+    {
+      "source": "IMG_1121",
+      "start": 13.16,
+      "end": 14.4,
+      "beat": "OUTRO",
+      "offset": 86.73,
+      "punch": true,
+      "quote": "I'll see you next time."
+    },
+    {
+      "source": "IMG_1121",
+      "start": 14.72,
+      "end": 16.65,
+      "beat": "BUTTON",
+      "offset": 87.97,
+      "quote": "Peace! + wave, hand covers the lens, then it detonates — uncaptioned"
+    }
+  ],
+  "grade": "none",
+  "overlays": [
+    {
+      "file": "animations/slot_hook_upcoming/render.mov",
+      "start_in_output": 0.0,
+      "duration": 2.6
+    },
+    {
+      "file": "animations/slot_pvz_day8/render.mov",
+      "start_in_output": 2.66,
+      "duration": 3.2
+    },
+    {
+      "file": "animations/slot_gfx_sources/render.mov",
+      "start_in_output": 6.9,
+      "duration": 9.0
+    },
+    {
+      "file": "animations/slot_gfx_why1/render.mov",
+      "start_in_output": 15.95,
+      "duration": 7.35
+    },
+    {
+      "file": "animations/slot_gfx_why2/render.mov",
+      "start_in_output": 23.5,
+      "duration": 7.9
+    },
+    {
+      "file": "animations/slot_gfx_block/render.mov",
+      "start_in_output": 32.6,
+      "duration": 4.4
+    },
+    {
+      "file": "animations/slot_gfx_finnhub/render.mov",
+      "start_in_output": 37.6,
+      "duration": 8.8
+    },
+    {
+      "file": "animations/slot_gfx_webhook/render.mov",
+      "start_in_output": 48.85,
+      "duration": 5.75
+    },
+    {
+      "file": "animations/slot_gfx_auto/render.mov",
+      "start_in_output": 54.9,
+      "duration": 5.5
+    },
+    {
+      "file": "animations/slot_gfx_normalize/render.mov",
+      "start_in_output": 60.5,
+      "duration": 4.95
+    },
+    {
+      "file": "animations/slot_gfx_sqlite/render.mov",
+      "start_in_output": 65.6,
+      "duration": 9.5
+    },
+    {
+      "file": "animations/slot_gfx_outro/render.mov",
+      "start_in_output": 85.2,
+      "duration": 2.7
+    },
+    {
+      "file": "animations/slot_explosion/render.mov",
+      "start_in_output": 89.25,
+      "duration": 1.1
+    }
+  ],
+  "sfx": [
+    {
+      "at": 0.1,
+      "file": "../../../Meme Audio/swoosh_t.mp3",
+      "gain": 0.4,
+      "_": "COMING UP sign drops"
+    },
+    {
+      "at": 1.95,
+      "file": "../../../Meme Audio/riser_t.mp3",
+      "gain": 0.3,
+      "trim": 0.75,
+      "_": "riser into the hook cut"
+    },
+    {
+      "at": 2.95,
+      "file": "../../../Meme Audio/vine_boom.mp3",
+      "gain": 0.38,
+      "trim": 1.0,
+      "_": "DAY 8 terminal slam on spoken '8'"
+    },
+    {
+      "at": 7.1,
+      "file": "../../../Meme Audio/swoosh_t.mp3",
+      "gain": 0.32,
+      "_": "sources card slides in"
+    },
+    {
+      "at": 8.6,
+      "file": "../../../Meme Audio/xperror_t.mp3",
+      "gain": 0.34,
+      "_": "Bloomberg TOO EXPENSIVE stamp"
+    },
+    {
+      "at": 9.85,
+      "file": "sfx/pop.wav",
+      "gain": 0.38,
+      "_": "Alpaca row pops"
+    },
+    {
+      "at": 11.88,
+      "file": "sfx/pop.wav",
+      "gain": 0.38,
+      "_": "SEC EDGAR row pops"
+    },
+    {
+      "at": 19.35,
+      "file": "../../../Meme Audio/sparkle_t.mp3",
+      "gain": 0.3,
+      "_": "Alpaca broker-API check"
+    },
+    {
+      "at": 27.4,
+      "file": "../../../Meme Audio/sparkle_t.mp3",
+      "gain": 0.3,
+      "_": "SEC filing check"
+    },
+    {
+      "at": 31.5,
+      "file": "../../../Meme Audio/scratch_t.mp3",
+      "gain": 0.4,
+      "_": "record scratch on 'sebelum gua lanjut'"
+    },
+    {
+      "at": 35.55,
+      "file": "../../../Meme Audio/emotional_t.mp3",
+      "gain": 0.4,
+      "_": "BLOCKED? stamp"
+    },
+    {
+      "at": 40.1,
+      "file": "../../../Meme Audio/wow_t.mp3",
+      "gain": 0.36,
+      "_": "FINNHUB reveal"
+    },
+    {
+      "at": 44.78,
+      "file": "../../../Meme Audio/yippee_t.mp3",
+      "gain": 0.34,
+      "_": "CLUTCH. stamp"
+    },
+    {
+      "at": 48.95,
+      "file": "sfx/whoosh.wav",
+      "gain": 0.35,
+      "_": "webhook node lands"
+    },
+    {
+      "at": 52.15,
+      "file": "../../../Meme Audio/discord_t.mp3",
+      "gain": 0.32,
+      "_": "news packet arrives at the bot"
+    },
+    {
+      "at": 58.98,
+      "file": "../../../Meme Audio/taco_t.mp3",
+      "gain": 0.3,
+      "_": "SET AND FORGET"
+    },
+    {
+      "at": 68.5,
+      "file": "../../../Meme Audio/coin_t.mp3",
+      "gain": 0.38,
+      "_": "SQLite lands"
+    },
+    {
+      "at": 85.4,
+      "file": "sfx/ding.wav",
+      "gain": 0.32,
+      "_": "LIKE + FOLLOW badges"
+    },
+    {
+      "at": 88.62,
+      "file": "../../../Meme Audio/yippee_t.mp3",
+      "gain": 0.34,
+      "_": "peace-sign wave button"
+    },
+    {
+      "at": 89.25,
+      "file": "../../../Meme Audio/boom_t.mp3",
+      "gain": 0.32,
+      "_": "explosion end card"
+    }
+  ],
+  "beeps": [],
+  "subtitles": "master_v1.ass",
+  "total_duration_s": 89.9,
+  "_measured_output_s": 90.29
+}

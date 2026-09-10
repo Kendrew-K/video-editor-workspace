@@ -1,0 +1,593 @@
+{
+  "language_code": "ind",
+  "language_probability": 0.7657905220985413,
+  "text": "Setelah research, gue memutuskan untuk menggunakan dua teknik yang gua bahas dalam video sebelumnya. Kenapa? Dengan teknologi yang dimiliki oleh Wallstreet Trader sekarang ini, it is unwise to compete with them, so I will avoid them entirely.",
+  "words": [
+    {
+      "text": "Setelah",
+      "start": 1.439,
+      "end": 1.779,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.02002617683527725
+    },
+    {
+      "text": " ",
+      "start": 1.779,
+      "end": 1.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.48303988575935364
+    },
+    {
+      "text": "research,",
+      "start": 1.899,
+      "end": 2.359,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.42958941000203293
+    },
+    {
+      "text": " ",
+      "start": 2.359,
+      "end": 2.759,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.08090771734714508
+    },
+    {
+      "text": "gue",
+      "start": 2.759,
+      "end": 2.919,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.028856826325257618
+    },
+    {
+      "text": " ",
+      "start": 2.919,
+      "end": 2.959,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00013624693383462727
+    },
+    {
+      "text": "memutuskan",
+      "start": 2.96,
+      "end": 3.539,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.372460641410726e-05
+    },
+    {
+      "text": " ",
+      "start": 3.539,
+      "end": 3.579,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00033206192892976105
+    },
+    {
+      "text": "untuk",
+      "start": 3.579,
+      "end": 3.74,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00033206192892976105
+    },
+    {
+      "text": " ",
+      "start": 3.74,
+      "end": 3.799,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008528171456418931
+    },
+    {
+      "text": "menggunakan",
+      "start": 3.799,
+      "end": 4.48,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008528171456418931
+    },
+    {
+      "text": " ",
+      "start": 4.48,
+      "end": 4.519,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.20192117989063263
+    },
+    {
+      "text": "dua",
+      "start": 4.519,
+      "end": 4.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.20192117989063263
+    },
+    {
+      "text": " ",
+      "start": 4.699,
+      "end": 4.739,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011276562872808427
+    },
+    {
+      "text": "teknik",
+      "start": 4.739,
+      "end": 5.059,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011276562872808427
+    },
+    {
+      "text": " ",
+      "start": 5.059,
+      "end": 5.099,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0004166688595432788
+    },
+    {
+      "text": "yang",
+      "start": 5.099,
+      "end": 5.199,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0004166688595432788
+    },
+    {
+      "text": " ",
+      "start": 5.199,
+      "end": 5.259,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0009528625523671508
+    },
+    {
+      "text": "gua",
+      "start": 5.259,
+      "end": 5.4,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0006366722100210609
+    },
+    {
+      "text": " ",
+      "start": 5.4,
+      "end": 5.44,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.940656698541716e-06
+    },
+    {
+      "text": "bahas",
+      "start": 5.44,
+      "end": 5.679,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.459761439396971e-06
+    },
+    {
+      "text": " ",
+      "start": 5.679,
+      "end": 5.739,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.732496745418757e-05
+    },
+    {
+      "text": "dalam",
+      "start": 5.739,
+      "end": 5.94,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.732496745418757e-05
+    },
+    {
+      "text": " ",
+      "start": 5.94,
+      "end": 5.98,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.124556289752945e-05
+    },
+    {
+      "text": "video",
+      "start": 5.98,
+      "end": 6.199,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.124556289752945e-05
+    },
+    {
+      "text": " ",
+      "start": 6.199,
+      "end": 6.239,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -1.966933996300213e-05
+    },
+    {
+      "text": "sebelumnya.",
+      "start": 6.239,
+      "end": 6.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -7.345018122412677e-05
+    },
+    {
+      "text": " ",
+      "start": 6.739,
+      "end": 7.259,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00011848701251437888
+    },
+    {
+      "text": "Kenapa?",
+      "start": 7.259,
+      "end": 7.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -5.660427041220828e-05
+    },
+    {
+      "text": " ",
+      "start": 7.659,
+      "end": 8.34,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.010307295247912407
+    },
+    {
+      "text": "Dengan",
+      "start": 8.34,
+      "end": 8.56,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0017819550727532867
+    },
+    {
+      "text": " ",
+      "start": 8.56,
+      "end": 8.639,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -5.07818695041351e-05
+    },
+    {
+      "text": "teknologi",
+      "start": 8.639,
+      "end": 9.099,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -3.1841475599018544e-05
+    },
+    {
+      "text": " ",
+      "start": 9.099,
+      "end": 9.139,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.285972191719338e-05
+    },
+    {
+      "text": "yang",
+      "start": 9.139,
+      "end": 9.24,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -9.285972191719338e-05
+    },
+    {
+      "text": " ",
+      "start": 9.24,
+      "end": 9.26,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00032860602368600667
+    },
+    {
+      "text": "dimiliki",
+      "start": 9.26,
+      "end": 9.699,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00015794600039953366
+    },
+    {
+      "text": " ",
+      "start": 9.699,
+      "end": 9.739,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008632985409349203
+    },
+    {
+      "text": "oleh",
+      "start": 9.739,
+      "end": 9.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0008632985409349203
+    },
+    {
+      "text": " ",
+      "start": 9.859,
+      "end": 9.939,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.005574751645326614
+    },
+    {
+      "text": "Wallstreet",
+      "start": 9.939,
+      "end": 10.26,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.2036148026585579
+    },
+    {
+      "text": " ",
+      "start": 10.26,
+      "end": 10.3,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.01168796792626381
+    },
+    {
+      "text": "Trader",
+      "start": 10.3,
+      "end": 10.519,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.01168796792626381
+    },
+    {
+      "text": " ",
+      "start": 10.519,
+      "end": 10.559,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.059865078597795e-06
+    },
+    {
+      "text": "sekarang",
+      "start": 10.559,
+      "end": 10.859,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.410728919879148e-06
+    },
+    {
+      "text": " ",
+      "start": 10.859,
+      "end": 10.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002584123576525599
+    },
+    {
+      "text": "ini,",
+      "start": 10.92,
+      "end": 11.139,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00032934328919509426
+    },
+    {
+      "text": " ",
+      "start": 11.139,
+      "end": 11.579,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003660646267235279
+    },
+    {
+      "text": "it",
+      "start": 11.579,
+      "end": 11.739,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.003660646267235279
+    },
+    {
+      "text": " ",
+      "start": 11.739,
+      "end": 11.76,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.054888173937797546
+    },
+    {
+      "text": "is",
+      "start": 11.76,
+      "end": 11.86,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.054888173937797546
+    },
+    {
+      "text": " ",
+      "start": 11.86,
+      "end": 11.899,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.870042413240299e-05
+    },
+    {
+      "text": "unwise",
+      "start": 11.899,
+      "end": 12.5,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.00010918972111539915
+    },
+    {
+      "text": " ",
+      "start": 12.5,
+      "end": 12.539,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000125281119835563
+    },
+    {
+      "text": "to",
+      "start": 12.539,
+      "end": 12.659,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.000125281119835563
+    },
+    {
+      "text": " ",
+      "start": 12.659,
+      "end": 12.679,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.04994702711701393
+    },
+    {
+      "text": "compete",
+      "start": 12.679,
+      "end": 12.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.04994702711701393
+    },
+    {
+      "text": " ",
+      "start": 12.96,
+      "end": 13.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -4.172238186583854e-05
+    },
+    {
+      "text": "with",
+      "start": 13.0,
+      "end": 13.14,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -4.172238186583854e-05
+    },
+    {
+      "text": " ",
+      "start": 13.14,
+      "end": 13.159,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -9.536697689327411e-06
+    },
+    {
+      "text": "them,",
+      "start": 13.159,
+      "end": 13.34,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.09484200473962119
+    },
+    {
+      "text": " ",
+      "start": 13.34,
+      "end": 13.92,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002369599969824776
+    },
+    {
+      "text": "so",
+      "start": 13.92,
+      "end": 14.319,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0002369599969824776
+    },
+    {
+      "text": " ",
+      "start": 14.319,
+      "end": 14.42,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -2.8371408916427754e-05
+    },
+    {
+      "text": "I",
+      "start": 14.42,
+      "end": 14.439,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -2.8371408916427754e-05
+    },
+    {
+      "text": " ",
+      "start": 14.439,
+      "end": 14.5,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0009975224966183305
+    },
+    {
+      "text": "will",
+      "start": 14.5,
+      "end": 14.6,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0009975224966183305
+    },
+    {
+      "text": " ",
+      "start": 14.6,
+      "end": 14.719,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -8.451581379631534e-05
+    },
+    {
+      "text": "avoid",
+      "start": 14.719,
+      "end": 14.96,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -8.451581379631534e-05
+    },
+    {
+      "text": " ",
+      "start": 14.96,
+      "end": 15.0,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0019519339548423886
+    },
+    {
+      "text": "them",
+      "start": 15.0,
+      "end": 15.199,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.0019519339548423886
+    },
+    {
+      "text": " ",
+      "start": 15.199,
+      "end": 15.259,
+      "type": "spacing",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006559152156114578
+    },
+    {
+      "text": "entirely.",
+      "start": 15.259,
+      "end": 15.799,
+      "type": "word",
+      "speaker_id": "speaker_0",
+      "logprob": -0.006681935603006018
+    }
+  ],
+  "transcription_id": "UZHeiX2JyIstOXs8NO39",
+  "audio_duration_secs": 17.3853125
+}

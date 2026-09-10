@@ -1,0 +1,100 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BL,Arial,34,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,3,1,2,36,36,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.08,0:00:02.40,BL,,0,0,0,,{\c&HFFFFFF&}Guys, gua nggak tahu ini bisa apa nggak.\N{\c&H00FFFF&}Guys, I don't know if this is possible.
+
+Dialogue: 0,0:00:02.73,0:00:04.05,BL,,0,0,0,,{\c&HFFFFFF&}Day 8 telah hadir,\N{\c&H00FFFF&}Day 8 is here,
+
+Dialogue: 0,0:00:04.09,0:00:06.65,BL,,0,0,0,,{\c&HFFFFFF&}dan gua mau share rencana gua buat ambil berita.\N{\c&H00FFFF&}and I'll share my plan on getting news.
+
+Dialogue: 0,0:00:06.83,0:00:09.15,BL,,0,0,0,,{\c&HFFFFFF&}Karena Bloomberg sekarang mahal banget,\N{\c&H00FFFF&}Since Bloomberg now costs way too much,
+
+Dialogue: 0,0:00:09.29,0:00:10.95,BL,,0,0,0,,{\c&HFFFFFF&}gua bakal pakai Alpaca News API\N{\c&H00FFFF&}I plan to use the Alpaca News API
+
+Dialogue: 0,0:00:11.21,0:00:13.35,BL,,0,0,0,,{\c&HFFFFFF&}dan juga SEC EDGAR API\N{\c&H00FFFF&}and also the SEC EDGAR API
+
+Dialogue: 0,0:00:13.47,0:00:15.85,BL,,0,0,0,,{\c&HFFFFFF&}buat semua financial news bot gua ini.\N{\c&H00FFFF&}for all the financial news for this bot.
+
+Dialogue: 0,0:00:15.97,0:00:16.89,BL,,0,0,0,,{\c&HFFFFFF&}Nah, kenapa dua ini?\N{\c&H00FFFF&}So, why these two?
+
+Dialogue: 0,0:00:17.03,0:00:19.81,BL,,0,0,0,,{\c&HFFFFFF&}Karena Alpaca punya broker API\N{\c&H00FFFF&}Because Alpaca has a broker API
+
+Dialogue: 0,0:00:19.87,0:00:23.29,BL,,0,0,0,,{\c&HFFFFFF&}yang udah kepasang otomatis di aplikasi mereka.\N{\c&H00FFFF&}that's already built into their app.
+
+Dialogue: 0,0:00:23.47,0:00:23.95,BL,,0,0,0,,{\c&HFFFFFF&}Dan juga,\N{\c&H00FFFF&}And also,
+
+Dialogue: 0,0:00:24.07,0:00:26.25,BL,,0,0,0,,{\c&HFFFFFF&}di video sebelumnya gua udah bilang\N{\c&H00FFFF&}in the previous video I already said
+
+Dialogue: 0,0:00:26.29,0:00:28.05,BL,,0,0,0,,{\c&HFFFFFF&}bahwa gua bakal pakai SEC filing\N{\c&H00FFFF&}that I'd be using SEC filings
+
+Dialogue: 0,0:00:28.07,0:00:31.33,BL,,0,0,0,,{\c&HFFFFFF&}sebagai salah satu teknik bot gua ini.\N{\c&H00FFFF&}as one of the techniques for this bot.
+
+Dialogue: 0,0:00:31.51,0:00:32.39,BL,,0,0,0,,{\c&HFFFFFF&}Sebelum gua lanjut,\N{\c&H00FFFF&}Before I go on,
+
+Dialogue: 0,0:00:32.51,0:00:33.43,BL,,0,0,0,,{\c&HFFFFFF&}gua baru sadar,\N{\c&H00FFFF&}I just realised,
+
+Dialogue: 0,0:00:33.45,0:00:36.17,BL,,0,0,0,,{\c&HFFFFFF&}apa API-nya bisa diakses di Indonesia?\N{\c&H00FFFF&}can these APIs even be accessed from Indonesia?
+
+Dialogue: 0,0:00:36.31,0:00:37.55,BL,,0,0,0,,{\c&HFFFFFF&}Nah, setelah research,\N{\c&H00FFFF&}So, after some research,
+
+Dialogue: 0,0:00:37.69,0:00:39.67,BL,,0,0,0,,{\c&HFFFFFF&}gua nemu alternatif buat Alpaca,\N{\c&H00FFFF&}I found an alternative to Alpaca,
+
+Dialogue: 0,0:00:39.81,0:00:41.65,BL,,0,0,0,,{\c&HFFFFFF&}yaitu Finnhub API.\N{\c&H00FFFF&}which is the Finnhub API.
+
+Dialogue: 0,0:00:41.71,0:00:44.55,BL,,0,0,0,,{\c&HFFFFFF&}Meskipun Finnhub cuma news provider,\N{\c&H00FFFF&}Even though Finnhub is only a news provider,
+
+Dialogue: 0,0:00:44.71,0:00:46.39,BL,,0,0,0,,{\c&HFFFFFF&}buat sementara ini cukuplah ya.\N{\c&H00FFFF&}for now it's good enough.
+
+Dialogue: 0,0:00:46.53,0:00:48.43,BL,,0,0,0,,{\c&HFFFFFF&}Jadi dengan dua API ini,\N{\c&H00FFFF&}So with these two APIs,
+
+Dialogue: 0,0:00:48.49,0:00:49.65,BL,,0,0,0,,{\c&HFFFFFF&}gua bakal set up webhook,\N{\c&H00FFFF&}I'm going to set up a webhook,
+
+Dialogue: 0,0:00:49.77,0:00:51.23,BL,,0,0,0,,{\c&HFFFFFF&}yaitu sebuah sistem\N{\c&H00FFFF&}which is a system
+
+Dialogue: 0,0:00:51.27,0:00:52.95,BL,,0,0,0,,{\c&HFFFFFF&}biar semua berita baru\N{\c&H00FFFF&}so that every new piece of news
+
+Dialogue: 0,0:00:52.99,0:00:54.75,BL,,0,0,0,,{\c&HFFFFFF&}langsung kekirim ke bot gua.\N{\c&H00FFFF&}gets pushed straight to my bot.
+
+Dialogue: 0,0:00:54.87,0:00:56.85,BL,,0,0,0,,{\c&HFFFFFF&}Jadi bot ini bisa jalan\N{\c&H00FFFF&}That way this bot can run
+
+Dialogue: 0,0:00:56.87,0:00:58.73,BL,,0,0,0,,{\c&HFFFFFF&}pakai informasi terbaru tiap hari,\N{\c&H00FFFF&}on the latest info every day,
+
+Dialogue: 0,0:00:58.75,0:01:00.33,BL,,0,0,0,,{\c&HFFFFFF&}tanpa gua sentuh sama sekali.\N{\c&H00FFFF&}without any intervention.
+
+Dialogue: 0,0:01:00.45,0:01:01.63,BL,,0,0,0,,{\c&HFFFFFF&}Dari dua news source ini,\N{\c&H00FFFF&}From these two news sources,
+
+Dialogue: 0,0:01:01.75,0:01:02.71,BL,,0,0,0,,{\c&HFFFFFF&}gua bakal normalize,\N{\c&H00FFFF&}I'm going to normalize,
+
+Dialogue: 0,0:01:02.83,0:01:04.97,BL,,0,0,0,,{\c&HFFFFFF&}yaitu ubah semua data ke format yang sama.\N{\c&H00FFFF&}meaning turn all the data into one format.
+
+Dialogue: 0,0:01:05.09,0:01:07.25,BL,,0,0,0,,{\c&HFFFFFF&}Terus semua data ini gua simpan di database,\N{\c&H00FFFF&}And I will store all of this data in a database,
+
+Dialogue: 0,0:01:07.39,0:01:09.53,BL,,0,0,0,,{\c&HFFFFFF&}yang dalam hal ini pakai SQLite.\N{\c&H00FFFF&}which in this case will be SQLite.
+
+Dialogue: 0,0:01:09.57,0:01:11.29,BL,,0,0,0,,{\c&HFFFFFF&}Setup simpel buat proyek lokal.\N{\c&H00FFFF&}Simple setup for local projects.
+
+Dialogue: 0,0:01:11.33,0:01:13.27,BL,,0,0,0,,{\c&HFFFFFF&}Nah, data inilah yang bakal gua pakai\N{\c&H00FFFF&}And this is the data I'll be using
+
+Dialogue: 0,0:01:13.31,0:01:15.13,BL,,0,0,0,,{\c&HFFFFFF&}buat backtesting nanti.\N{\c&H00FFFF&}for backtesting later on.
+
+Dialogue: 0,0:01:15.25,0:01:18.13,BL,,0,0,0,,{\c&HFFFFFF&}Dan segitu aja episode hari ini.\N{\c&H00FFFF&}And that pretty much wraps up today's episode.
+
+Dialogue: 0,0:01:18.17,0:01:20.71,BL,,0,0,0,,{\c&HFFFFFF&}Walaupun ada halangan yang hampir ngebunuh proyek ini,\N{\c&H00FFFF&}Even though blockades nearly killed this project,
+
+Dialogue: 0,0:01:20.85,0:01:22.77,BL,,0,0,0,,{\c&HFFFFFF&}pada akhirnya semuanya lancar.\N{\c&H00FFFF&}in the end it went well.
+
+Dialogue: 0,0:01:22.81,0:01:25.17,BL,,0,0,0,,{\c&HFFFFFF&}Kalau kalian masih tertarik sama perjalanan gua,\N{\c&H00FFFF&}If you're still interested in this journey of mine,
+
+Dialogue: 0,0:01:25.33,0:01:26.69,BL,,0,0,0,,{\c&HFFFFFF&}tinggal like dan follow aja ya.\N{\c&H00FFFF&}just like and follow.
+
+Dialogue: 0,0:01:26.81,0:01:27.91,BL,,0,0,0,,{\c&HFFFFFF&}Sampai jumpa lain waktu.\N{\c&H00FFFF&}I'll see you next time.
