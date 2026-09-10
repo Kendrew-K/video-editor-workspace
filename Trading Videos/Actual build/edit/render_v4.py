@@ -18,11 +18,29 @@ Usage:
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
 
-HELPERS = Path("<USER_HOME>/.claude/skills/video-use/helpers")
+# video-use is a separate MIT project (see README). Point VIDEO_USE_HELPERS at
+# its helpers/ directory, or clone it next to this repo and the default finds it.
+HELPERS = Path(
+    os.environ.get("VIDEO_USE_HELPERS")
+    or next(
+        (str(c) for c in [
+            Path(__file__).resolve().parents[3] / "video-use" / "video-use" / "helpers",
+            Path(__file__).resolve().parents[3] / "video-use" / "helpers",
+            Path.home() / ".claude" / "skills" / "video-use" / "helpers",
+        ] if c.is_dir()),
+        "",
+    )
+)
+if not HELPERS.is_dir():
+    raise SystemExit(
+        "video-use helpers/ not found. Clone https://github.com/browser-use/video-use "
+        "beside this repo, or set VIDEO_USE_HELPERS to its helpers/ directory."
+    )
 sys.path.insert(0, str(HELPERS))
 import render as R  # noqa: E402
 
